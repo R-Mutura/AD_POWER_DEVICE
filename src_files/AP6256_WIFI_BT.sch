@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -306,7 +306,7 @@ BT_REG_ON_H_GPIO2_B7
 Wire Wire Line
 	3925 2650 3775 2650
 Text HLabel 3775 2750 0    33   Input ~ 0
-BT_REG_ON_H_GPIO2_B7
+WIFI_REG_ON_H_GPIO2_B1
 Wire Wire Line
 	3925 2750 3775 2750
 Text HLabel 6025 2100 2    33   Input ~ 0
@@ -638,4 +638,10 @@ Wire Wire Line
 	6575 4200 6850 4200
 Wire Wire Line
 	5875 4000 6275 4000
+Wire Notes Line
+	1050 1375 1050 1625
+Wire Notes Line
+	1050 1625 3250 1625
+Text Notes 2350 1625 0    39   ~ 0
+Z0 = 50 Ohms
 $EndSCHEMATC
