@@ -69,4 +69,12 @@ Text HLabel 9475 5450 2    30   Input ~ 0
 I2S1_SDI0_M0_PDM_SDI0_M0_RK809
 Wire Wire Line
 	9475 5450 9350 5450
+Text HLabel 9550 2200 2    30   Input ~ 0
+UART4_RX
+Text HLabel 9550 2300 2    30   Input ~ 0
+UART4_TX
+Wire Wire Line
+	9550 2300 9350 2300
+Wire Wire Line
+	9550 2200 9350 2200
 $EndSCHEMATC

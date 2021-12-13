@@ -1,4 +1,4 @@
-20951600192820874
+20954879014547583
 74438357068_ind
 74438357068
 
@@ -89912,6 +89912,13 @@ Integrated Circuit
 200
 200
 greencharge-footprints
+BGA828C65P31X31_2100X2100X161N
+
+
+0
+828
+828
+greencharge-footprints
 BluePill_STM32F103C
 STM32F103C8 BluePill board
 
@@ -90100,6 +90107,13 @@ Integrated Circuit
 0
 29
 29
+greencharge-footprints
+QUECTEL_L70-R
+
+
+0
+18
+18
 greencharge-footprints
 RASPBERRYPIZEROW
 Raspberry Pi Zero W (v1.3)_1
