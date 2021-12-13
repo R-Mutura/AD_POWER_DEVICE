@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -187,7 +187,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 2650 4250 2650
 Text HLabel 3975 3650 0    33   Input ~ 0
-I2S_MCLK_MO_RK809
+I2S1_MCLK_MO_RK809
 Wire Wire Line
 	4250 3650 3975 3650
 Text HLabel 3975 3850 0    33   Input ~ 0
@@ -226,8 +226,8 @@ $Comp
 L Device:L_Core_Ferrite L?
 U 1 1 621EFB2C
 P 6800 2750
-F 0 "L?" V 7025 2750 50  0000 C CNN
-F 1 "180R_100M_1.5A" V 6934 2750 50  0000 C CNN
+F 0 "L?" V 6975 2750 50  0000 C CNN
+F 1 "180R_100M_1.5A" V 6900 2750 50  0000 C CNN
 F 2 "" H 6800 2750 50  0001 C CNN
 F 3 "~" H 6800 2750 50  0001 C CNN
 	1    6800 2750
