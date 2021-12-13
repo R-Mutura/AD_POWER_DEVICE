@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 11
+Sheet 10 11
 Title ""
 Date ""
 Rev ""
@@ -18,10 +18,10 @@ L GCL_Integrated-Circuits:RK3566 U?
 U 4 1 61C7A3C9
 P 7300 650
 AR Path="/61C7A3C9" Ref="U?"  Part="4" 
-AR Path="/61C73AB6/61C7A3C9" Ref="U?"  Part="4" 
-F 0 "U?" H 7325 315 50  0000 C CNN
+AR Path="/61C73AB6/61C7A3C9" Ref="U1"  Part="4" 
+F 0 "U1" H 7325 315 50  0000 C CNN
 F 1 "RK3566" H 7325 224 50  0000 C CNN
-F 2 "" H 6750 550 50  0001 C CNN
+F 2 "greencharge-footprints:BGA828C65P31X31_2100X2100X161N" H 6750 550 50  0001 C CNN
 F 3 "" H 6750 550 50  0001 C CNN
 	4    7300 650 
 	1    0    0    -1  
