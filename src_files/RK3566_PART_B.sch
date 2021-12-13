@@ -140,4 +140,20 @@ Wire Notes Line
 	8075 3550 9450 3550
 Wire Notes Line
 	9450 3550 9450 2850
+Text HLabel 3900 5275 0    30   Input ~ 0
+SATA1_TX+
+Text HLabel 3900 5375 0    30   Input ~ 0
+SATA1_TX-
+Wire Wire Line
+	4025 5275 3900 5275
+Wire Wire Line
+	3900 5375 4025 5375
+Text HLabel 3900 5525 0    30   Input ~ 0
+SATA1_RX+
+Text HLabel 3900 5625 0    30   Input ~ 0
+SATA1_RX-
+Wire Wire Line
+	4025 5525 3900 5525
+Wire Wire Line
+	3900 5625 4025 5625
 $EndSCHEMATC
