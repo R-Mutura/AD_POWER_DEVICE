@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 11
+Sheet 10 11
 Title ""
 Date ""
 Rev ""
@@ -1188,19 +1188,8 @@ Text HLabel 7425 7450 2    30   Input ~ 0
 TP_INT_GPIO0_A5
 Text HLabel 7425 7550 2    30   Input ~ 0
 USB_HOST5V_EN
-Text GLabel 8900 7900 2    30   Input ~ 0
+Text GLabel 8850 7800 1    30   Input ~ 0
 VCC3V3_PMU
-$Comp
-L Device:C_Small C93
-U 1 1 6340D3E8
-P 8850 8050
-F 0 "C93" H 8700 8050 50  0000 C CNN
-F 1 "100nF" H 8725 7975 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8850 8050 50  0001 C CNN
-F 3 "~" H 8850 8050 50  0001 C CNN
-	1    8850 8050
-	1    0    0    -1  
-$EndComp
 $Comp
 L OLIMEX_Power:GND #PWR0191
 U 1 1 61F5509B
@@ -1226,42 +1215,32 @@ $EndComp
 Wire Wire Line
 	8850 8200 8850 8150
 Wire Wire Line
-	8850 7900 8900 7900
-Wire Wire Line
 	8850 7950 8850 7900
 Wire Wire Line
 	8850 7900 7250 7900
 Connection ~ 8850 7900
 Text HLabel 7425 8050 2    30   Input ~ 0
 PMIC_32KOUT_SOC
-Text HLabel 7425 8150 2    30   Input ~ 0
+Text HLabel 8050 8150 2    30   Input ~ 0
 I2C0_SCL_PMIC
-Text HLabel 7425 8250 2    30   Input ~ 0
+Text HLabel 8050 8250 2    30   Input ~ 0
 I2C0_SDA_PMIC
-Text HLabel 7425 8350 2    30   Input ~ 0
+Text HLabel 8050 8350 2    30   Input ~ 0
 I2C1_SCL
-Text HLabel 7425 8450 2    30   Input ~ 0
+Text HLabel 8050 8450 2    30   Input ~ 0
 I2C1_SDA
-Text HLabel 7425 8550 2    30   Input ~ 0
-I2C2_SCL_M0_TP
-Text HLabel 7425 8650 2    30   Input ~ 0
-I2C2_SDA_M0_TP
 Text HLabel 7425 8750 2    30   Input ~ 0
 GMAC1_RSTn_GPIO0_B7
 Wire Wire Line
-	7425 8750 7250 8750
+	7425 8950 7250 8950
 Wire Wire Line
-	7425 8650 7250 8650
+	8050 8450 7250 8450
 Wire Wire Line
-	7425 8550 7250 8550
+	8050 8350 7250 8350
 Wire Wire Line
-	7425 8450 7250 8450
+	8050 8250 7250 8250
 Wire Wire Line
-	7425 8350 7250 8350
-Wire Wire Line
-	7425 8250 7250 8250
-Wire Wire Line
-	7425 8150 7250 8150
+	8050 8150 7250 8150
 Wire Wire Line
 	7425 8050 7250 8050
 Wire Wire Line
@@ -1288,4 +1267,222 @@ F 3 "" H 4650 700 50  0001 C CNN
 	2    5200 800 
 	1    0    0    -1  
 $EndComp
+Text HLabel 7450 6950 2    39   Input ~ 0
+GPIO0_A0
+Wire Wire Line
+	7450 6950 7250 6950
+Text HLabel 7425 9650 2    39   Input ~ 0
+LCD_EN_GPIO0_C7
+Wire Wire Line
+	7250 9650 7425 9650
+Text HLabel 7425 8950 2    39   Input ~ 0
+BL_EN_GPIO0_C0
+Wire Wire Line
+	7425 8750 7250 8750
+Text HLabel 7425 9250 2    39   Input ~ 0
+LCD_BL_PWM4
+Text HLabel 7425 9150 2    39   Input ~ 0
+LCD_RST_L_GPIO0_C2
+Text HLabel 7425 9050 2    39   Input ~ 0
+RTCIC_INT_L_GPIO0_C1
+Wire Wire Line
+	7425 9050 7250 9050
+Wire Wire Line
+	7425 9150 7250 9150
+Wire Wire Line
+	7425 9250 7250 9250
+Text HLabel 7425 9450 2    39   Input ~ 0
+TP_RST_L_GPIO0_C5
+Text HLabel 7425 9550 2    39   Input ~ 0
+PWM7_IR
+Wire Wire Line
+	7425 9450 7250 9450
+Wire Wire Line
+	7425 9550 7250 9550
+Wire Wire Line
+	8850 7800 8850 7900
+$Comp
+L Device:C_Small C93
+U 1 1 6340D3E8
+P 8850 8050
+F 0 "C93" H 8700 8050 50  0000 C CNN
+F 1 "100nF" H 8725 7975 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8850 8050 50  0001 C CNN
+F 3 "~" H 8850 8050 50  0001 C CNN
+	1    8850 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9325 9850 9325 9975
+Wire Wire Line
+	8925 9950 8925 9850
+$Comp
+L Device:R_US R?
+U 1 1 6243D32E
+P 9325 10125
+F 0 "R?" V 9250 10100 50  0000 C CNN
+F 1 "2.2K_5%" V 9400 10125 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9365 10115 50  0001 C CNN
+F 3 "~" H 9325 10125 50  0001 C CNN
+	1    9325 10125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 62422541
+P 8925 10100
+F 0 "R?" V 8850 10075 50  0000 C CNN
+F 1 "2.2K_5%" V 9000 10100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8965 10090 50  0001 C CNN
+F 3 "~" H 8925 10100 50  0001 C CNN
+	1    8925 10100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8925 9850 9150 9850
+Text GLabel 9150 9800 1    30   Input ~ 0
+VCC3V3_PMU
+Wire Wire Line
+	9325 10275 9325 10600
+Wire Wire Line
+	8925 10250 8925 10600
+Wire Wire Line
+	8050 8550 7250 8550
+Wire Wire Line
+	8050 8650 7250 8650
+Text HLabel 8050 8650 2    30   Input ~ 0
+I2C2_SDA_M0_TP
+Text HLabel 8050 8550 2    30   Input ~ 0
+I2C2_SCL_M0_TP
+Text Label 7850 8150 2    39   ~ 0
+I2C0_SCL_PMIC
+Text Label 7825 8250 2    39   ~ 0
+I2C0_SDA_PMIC
+Text Label 7800 8350 2    39   ~ 0
+I2C1_SCL
+Text Label 7775 8450 2    39   ~ 0
+I2C1_SDA
+Text Label 7800 8550 2    39   ~ 0
+I2C2_SCL_M0_TP
+Text Label 7800 8650 2    39   ~ 0
+I2C2_SDA_M0_TP
+Text Label 11125 10450 3    39   ~ 0
+I2C2_SDA_M0_TP
+Text Label 10725 10450 3    39   ~ 0
+I2C2_SCL_M0_TP
+Text Label 9325 10600 3    39   ~ 0
+I2C1_SDA
+Text Label 8925 10600 3    39   ~ 0
+I2C1_SCL
+Wire Wire Line
+	10350 9825 10350 9950
+Wire Wire Line
+	9950 9925 9950 9825
+$Comp
+L Device:R_US R?
+U 1 1 626F2B0D
+P 10350 10100
+F 0 "R?" V 10275 10075 50  0000 C CNN
+F 1 "2.2K_5%" V 10425 10100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10390 10090 50  0001 C CNN
+F 3 "~" H 10350 10100 50  0001 C CNN
+	1    10350 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 626F2B17
+P 9950 10075
+F 0 "R?" V 9875 10050 50  0000 C CNN
+F 1 "2.2K_5%" V 10025 10075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9990 10065 50  0001 C CNN
+F 3 "~" H 9950 10075 50  0001 C CNN
+	1    9950 10075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 9825 10175 9825
+Text GLabel 10175 9775 1    30   Input ~ 0
+VCC3V3_PMU
+Wire Wire Line
+	10350 10250 10350 10500
+Wire Wire Line
+	9950 10225 9950 10500
+Text Label 10350 10500 3    39   ~ 0
+I2C0_SDA_PMIC
+Text Label 9950 10500 3    39   ~ 0
+I2C0_SCL_PMIC
+Wire Wire Line
+	11125 9800 11125 9925
+Wire Wire Line
+	10725 9900 10725 9800
+$Comp
+L Device:R_US R?
+U 1 1 6277A9D8
+P 11125 10075
+F 0 "R?" V 11050 10050 50  0000 C CNN
+F 1 "2.2K_5%" V 11200 10075 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 11165 10065 50  0001 C CNN
+F 3 "~" H 11125 10075 50  0001 C CNN
+	1    11125 10075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6277A9E2
+P 10725 10050
+F 0 "R?" V 10650 10025 50  0000 C CNN
+F 1 "2.2K_5%" V 10800 10050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10765 10040 50  0001 C CNN
+F 3 "~" H 10725 10050 50  0001 C CNN
+	1    10725 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10725 9800 10950 9800
+Text GLabel 10950 9750 1    30   Input ~ 0
+VCC3V3_PMU
+Wire Wire Line
+	11125 10225 11125 10450
+Wire Wire Line
+	10725 10200 10725 10450
+Wire Wire Line
+	10950 9750 10950 9800
+Connection ~ 10950 9800
+Wire Wire Line
+	10950 9800 11125 9800
+Wire Wire Line
+	10175 9775 10175 9825
+Connection ~ 10175 9825
+Wire Wire Line
+	10175 9825 10350 9825
+Wire Wire Line
+	9150 9800 9150 9850
+Connection ~ 9150 9850
+Wire Wire Line
+	9150 9850 9325 9850
+Text Notes 13350 1075 2    50   ~ 10
+LPDDR3_RAM_4GB
+Wire Notes Line
+	12675 1050 10300 1050
+Wire Notes Line
+	10300 1050 10300 9275
+Wire Notes Line
+	10300 9275 15850 9275
+Wire Notes Line
+	15850 9275 15850 1050
+Wire Notes Line
+	15850 1050 13350 1050
+Text Notes 9875 9400 2    50   ~ 10
+I2C_PULLUPS
+Wire Notes Line
+	9400 9350 8725 9350
+Wire Notes Line
+	8725 9350 8725 11075
+Wire Notes Line
+	8725 11075 11575 11075
+Wire Notes Line
+	11575 11075 11575 9350
+Wire Notes Line
+	11575 9350 9875 9350
 $EndSCHEMATC

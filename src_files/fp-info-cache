@@ -1,4 +1,4 @@
-20954879014547583
+20964698038789363
 74438357068_ind
 74438357068
 
@@ -79713,6 +79713,13 @@ Power Supply
 4
 4
 SamacSys_Parts_2
+S194146R
+S1941-46R-1
+Connector
+0
+1
+1
+SamacSys_Parts_2
 SATA10101151
 SATA10101151-1
 Connector
@@ -89895,8 +89902,8 @@ AP43771
 
 
 0
-14
-14
+15
+15
 greencharge-footprints
 BGA200C65P12X22_1000X1450X80
 200ball FBGA
@@ -89953,6 +89960,13 @@ Undefined or Miscellaneous
 0
 3
 3
+greencharge-footprints
+ESD5304D-TP
+
+
+0
+9
+6
 greencharge-footprints
 ESP-32S
 
@@ -90199,6 +90213,13 @@ Integrated Circuit
 8
 8
 greencharge-footprints
+SOTFL50P160X85-3N
+
+
+0
+3
+3
+greencharge-footprints
 SRD-05VDC-SL-C
 
 
@@ -90234,12 +90255,33 @@ Integrated Circuit
 25
 25
 greencharge-footprints
+SpringContact_Harwin_S1941-46R
+7.25mm SMT Multi-directional Spring Contact (T+R), https://cdn.harwin.com/pdfs/S1941R.pdf
+spring contact emi emc shield
+0
+1
+1
+greencharge-footprints
+Stamping_Spring
+
+
+0
+2
+1
+greencharge-footprints
 TE_1-84953-4
 
 
 0
 16
 16
+greencharge-footprints
+TE_3-1734592-0
+
+
+0
+32
+32
 greencharge-footprints
 TPS54332DDAR
 

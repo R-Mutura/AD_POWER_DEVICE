@@ -26,30 +26,6 @@ F 3 "" H 5475 475 50  0001 C CNN
 	3    6025 575 
 	1    0    0    -1  
 $EndComp
-Text HLabel 3750 1175 0    33   Input ~ 0
-eMMC_D0_FLASH_D0
-Wire Wire Line
-	4025 1175 3750 1175
-Text HLabel 3750 1275 0    33   Input ~ 0
-eMMC_D1_FLASH_D1
-Text HLabel 3750 1375 0    33   Input ~ 0
-eMMC_D2_FLASH_D2
-Text HLabel 3750 1475 0    33   Input ~ 0
-eMMC_D3_FLASH_D3
-Text HLabel 3750 1575 0    33   Input ~ 0
-eMMC_D4_FLASH_D4
-Text HLabel 3750 1675 0    33   Input ~ 0
-eMMC_D5_FLASH_D5
-Text HLabel 3750 1775 0    33   Input ~ 0
-eMMC_D6_FLASH_D6
-Text HLabel 3750 1875 0    33   Input ~ 0
-eMMC_D7_FLASH_D7
-Text HLabel 3750 2025 0    33   Input ~ 0
-eMMC_CMD_FLASH_WRn
-Wire Wire Line
-	4025 1275 3750 1275
-Wire Wire Line
-	3750 1375 4025 1375
 Text HLabel 8250 1175 2    39   Input ~ 0
 SDMMC1_D0
 Text HLabel 8250 1275 2    39   Input ~ 0
@@ -156,4 +132,46 @@ Wire Wire Line
 	4025 5525 3900 5525
 Wire Wire Line
 	3900 5625 4025 5625
+Wire Wire Line
+	3750 1375 4025 1375
+Wire Wire Line
+	4025 1275 3750 1275
+Text HLabel 3150 2650 0    33   Input ~ 0
+eMMC_CMD_FLASH_WRn
+Text HLabel 3150 2500 0    33   Input ~ 0
+eMMC_D7_FLASH_D7
+Text HLabel 3150 2400 0    33   Input ~ 0
+eMMC_D6_FLASH_D6
+Text HLabel 3150 2300 0    33   Input ~ 0
+eMMC_D5_FLASH_D5
+Text HLabel 3150 2200 0    33   Input ~ 0
+eMMC_D4_FLASH_D4
+Text HLabel 3150 2100 0    33   Input ~ 0
+eMMC_D3_FLASH_D3
+Text HLabel 3150 2000 0    33   Input ~ 0
+eMMC_D2_FLASH_D2
+Text HLabel 3150 1900 0    33   Input ~ 0
+eMMC_D1_FLASH_D1
+Wire Wire Line
+	4025 1175 3750 1175
+Text HLabel 3150 1800 0    33   Input ~ 0
+eMMC_D0_FLASH_D0
+Text HLabel 3750 1175 0    39   Input ~ 0
+GPIO1_B4_DISPLAY_ONE
+Text HLabel 3750 1275 0    39   Input ~ 0
+LCD_1_EN_GPIO1_B5_C7
+Text HLabel 3750 1375 0    39   Input ~ 0
+TP_INT_GPIO1_B6_DISPLAY_ONE
+Text HLabel 3725 1475 0    39   Input ~ 0
+BL_EN_GPIO1_B7_DISPLAY_ONE
+Wire Wire Line
+	4025 1475 3725 1475
+Text HLabel 3725 1575 0    39   Input ~ 0
+LCD_RST_L_GPIO1_C0_DISPLAY_ONE
+Text HLabel 3725 1675 0    39   Input ~ 0
+TP_RST_L_GPIO1_C2_DISPLAY_ONE
+Wire Wire Line
+	4025 1575 3725 1575
+Wire Wire Line
+	3725 1675 4025 1675
 $EndSCHEMATC
