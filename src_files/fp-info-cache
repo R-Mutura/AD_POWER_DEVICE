@@ -1,4 +1,4 @@
-20964698038789363
+20967977321499194
 74438357068_ind
 74438357068
 
@@ -89905,6 +89905,13 @@ AP43771
 15
 15
 greencharge-footprints
+BGA-64_8x8_7.0x7.0mm_MCDP2900
+
+
+0
+64
+64
+greencharge-footprints
 BGA200C65P12X22_1000X1450X80
 200ball FBGA
 Integrated Circuit
@@ -89960,6 +89967,13 @@ Undefined or Miscellaneous
 0
 3
 3
+greencharge-footprints
+DFP1006-2L
+
+
+0
+2
+2
 greencharge-footprints
 ESD5304D-TP
 

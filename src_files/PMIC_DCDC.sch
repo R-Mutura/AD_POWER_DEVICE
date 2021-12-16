@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 11
+Sheet 3 12
 Title ""
 Date ""
 Rev ""
@@ -344,19 +344,6 @@ Wire Wire Line
 	4675 1275 4875 1275
 Wire Wire Line
 	4875 1075 4550 1075
-$Comp
-L GCL_Integrated-Circuits:RK809 U?
-U 1 1 61D17743
-P 5875 925
-AR Path="/61D17743" Ref="U?"  Part="3" 
-AR Path="/61CF51BC/61D17743" Ref="U2"  Part="1" 
-F 0 "U2" H 5775 1075 50  0000 C CNN
-F 1 "RK809" H 5750 975 50  0000 C CNN
-F 2 "Package_DFN_QFN:TQFN-48-1EP_7x7mm_P0.5mm_EP5.1x5.1mm" H 5775 1125 50  0001 C CNN
-F 3 "" H 5775 1125 50  0001 C CNN
-	1    5875 925 
-	1    0    0    -1  
-$EndComp
 Text Label 3525 2275 0    50   ~ 0
 SW2
 Wire Wire Line
@@ -1593,4 +1580,15 @@ Wire Wire Line
 	6875 3975 6675 3975
 Wire Wire Line
 	6675 3825 6875 3825
+$Comp
+L GCL_Integrated-Circuits:RK809 U2
+U 3 1 625FB264
+P 5875 925
+F 0 "U2" H 5775 1090 50  0000 C CNN
+F 1 "RK809" H 5775 999 50  0000 C CNN
+F 2 "" H 5775 1125 50  0001 C CNN
+F 3 "" H 5775 1125 50  0001 C CNN
+	3    5875 925 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 11
+Sheet 4 12
 Title ""
 Date ""
 Rev ""
@@ -13,19 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L GCL_Integrated-Circuits:RK3566 U?
-U 3 1 62988BD1
-P 6025 575
-AR Path="/62988BD1" Ref="U?"  Part="3" 
-AR Path="/62987DE9/62988BD1" Ref="U1"  Part="3" 
-F 0 "U1" H 6050 240 50  0000 C CNN
-F 1 "RK3566" H 6050 149 50  0000 C CNN
-F 2 "greencharge-footprints:BGA828C65P31X31_2100X2100X161N" H 5475 475 50  0001 C CNN
-F 3 "" H 5475 475 50  0001 C CNN
-	3    6025 575 
-	1    0    0    -1  
-$EndComp
 Text HLabel 8250 1175 2    39   Input ~ 0
 SDMMC1_D0
 Text HLabel 8250 1275 2    39   Input ~ 0
@@ -174,4 +161,29 @@ Wire Wire Line
 	4025 1575 3725 1575
 Wire Wire Line
 	3725 1675 4025 1675
+Text HLabel 8325 4475 2    50   Input ~ 0
+HDMITX_CEC_M0
+$Comp
+L GCL_Integrated-Circuits:RK3566 U?
+U 3 1 62988BD1
+P 6025 575
+AR Path="/62988BD1" Ref="U?"  Part="3" 
+AR Path="/62987DE9/62988BD1" Ref="U1"  Part="3" 
+F 0 "U1" H 6050 240 50  0000 C CNN
+F 1 "RK3566" H 6050 149 50  0000 C CNN
+F 2 "greencharge-footprints:BGA828C65P31X31_2100X2100X161N" H 5475 475 50  0001 C CNN
+F 3 "" H 5475 475 50  0001 C CNN
+	3    6025 575 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8075 4475 8325 4475
+Text HLabel 8325 4375 2    50   Input ~ 0
+HDMITX_SDA
+Text HLabel 8325 4275 2    50   Input ~ 0
+HDMITX_SCL
+Wire Wire Line
+	8075 4275 8325 4275
+Wire Wire Line
+	8075 4375 8325 4375
 $EndSCHEMATC

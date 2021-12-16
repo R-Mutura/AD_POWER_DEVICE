@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 9 12
 Title ""
 Date ""
 Rev ""
@@ -37,22 +37,6 @@ F 3 "" H 4025 2250 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	4025 2250 4150 2250
-$Comp
-L OLIMEX_Power:GND #PWR0159
-U 1 1 62191FEB
-P 5650 5375
-F 0 "#PWR0159" H 5650 5125 50  0001 C CNN
-F 1 "GND" H 5655 5202 50  0000 C CNN
-F 2 "" H 5650 5375 60  0000 C CNN
-F 3 "" H 5650 5375 60  0000 C CNN
-	1    5650 5375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5575 5375 5650 5375
-Connection ~ 5650 5375
-Wire Wire Line
-	5650 5375 5725 5375
 Wire Wire Line
 	4225 2900 4225 2700
 $Comp
@@ -125,8 +109,6 @@ I2C0_SCL_PMIC
 Text Label 4225 3900 0    33   ~ 0
 PMIC_SLEEP_H
 Wire Wire Line
-	5575 5250 5575 5375
-Wire Wire Line
 	4675 3450 4200 3450
 Wire Wire Line
 	4225 2700 4675 2700
@@ -135,26 +117,11 @@ Wire Wire Line
 Wire Wire Line
 	4675 3900 4225 3900
 Wire Wire Line
-	5725 5250 5725 5375
-Wire Wire Line
 	4350 2250 4675 2250
 Wire Wire Line
 	4175 3150 4675 3150
 Wire Wire Line
 	4675 3050 4175 3050
-$Comp
-L GCL_Integrated-Circuits:RK809 U?
-U 2 1 6218E13D
-P 5675 1950
-AR Path="/6218E13D" Ref="U?"  Part="1" 
-AR Path="/62188C68/6218E13D" Ref="U2"  Part="2" 
-F 0 "U2" H 5325 2125 50  0000 C CNN
-F 1 "RK809" H 5325 2025 50  0000 C CNN
-F 2 "" H 5575 2150 50  0001 C CNN
-F 3 "" H 5575 2150 50  0001 C CNN
-	2    5675 1950
-	1    0    0    -1  
-$EndComp
 Text Label 4450 4300 0    33   ~ 0
 RESETn
 Wire Wire Line
@@ -501,4 +468,35 @@ Wire Wire Line
 Connection ~ 6700 2300
 Wire Wire Line
 	6700 2300 6775 2300
+Wire Wire Line
+	5650 5450 5725 5450
+Connection ~ 5650 5450
+Wire Wire Line
+	5575 5450 5650 5450
+$Comp
+L OLIMEX_Power:GND #PWR0159
+U 1 1 62191FEB
+P 5650 5450
+F 0 "#PWR0159" H 5650 5200 50  0001 C CNN
+F 1 "GND" H 5655 5277 50  0000 C CNN
+F 2 "" H 5650 5450 60  0000 C CNN
+F 3 "" H 5650 5450 60  0000 C CNN
+	1    5650 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5575 5250 5575 5450
+Wire Wire Line
+	5725 5250 5725 5450
+$Comp
+L GCL_Integrated-Circuits:RK809 U2
+U 1 1 6260FEEB
+P 5675 1950
+F 0 "U2" H 5580 2115 50  0000 C CNN
+F 1 "RK809" H 5580 2024 50  0000 C CNN
+F 2 "" H 5575 2150 50  0001 C CNN
+F 3 "" H 5575 2150 50  0001 C CNN
+	1    5675 1950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
