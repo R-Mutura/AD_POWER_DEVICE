@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 12
+Sheet 4 13
 Title ""
 Date ""
 Rev ""
@@ -186,4 +186,12 @@ Wire Wire Line
 	8075 4275 8325 4275
 Wire Wire Line
 	8075 4375 8325 4375
+Text HLabel 3675 4625 0    50   Input ~ 0
+4G_MODULE_USB_D+
+Text HLabel 3675 4725 0    50   Input ~ 0
+4G_MODULE_USB_D-
+Wire Wire Line
+	4025 4625 3675 4625
+Wire Wire Line
+	3675 4725 4025 4725
 $EndSCHEMATC

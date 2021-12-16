@@ -1,0 +1,1027 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 13 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 6250 1450 1    33   Input ~ 0
+VCC_3V3
+Wire Wire Line
+	6200 1525 6200 1675
+Wire Wire Line
+	6300 1525 6300 1675
+Wire Wire Line
+	6200 1525 6250 1525
+$Comp
+L Device:CP1_Small C?
+U 1 1 64D34DEF
+P 3850 1050
+F 0 "C?" H 3941 1096 50  0000 L CNN
+F 1 "100uF" H 3941 1005 50  0000 L CNN
+F 2 "" H 3850 1050 50  0001 C CNN
+F 3 "~" H 3850 1050 50  0001 C CNN
+	1    3850 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 64D34AE5
+P 5125 1050
+F 0 "C?" H 5217 1096 50  0000 L CNN
+F 1 "10pF" H 5217 1005 50  0000 L CNN
+F 2 "" H 5125 1050 50  0001 C CNN
+F 3 "~" H 5125 1050 50  0001 C CNN
+	1    5125 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 64D34826
+P 4725 1050
+F 0 "C?" H 4817 1096 50  0000 L CNN
+F 1 "33pF" H 4817 1005 50  0000 L CNN
+F 2 "" H 4725 1050 50  0001 C CNN
+F 3 "~" H 4725 1050 50  0001 C CNN
+	1    4725 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 64D341F6
+P 4250 1050
+F 0 "C?" H 4342 1096 50  0000 L CNN
+F 1 "100nF" H 4342 1005 50  0000 L CNN
+F 2 "" H 4250 1050 50  0001 C CNN
+F 3 "~" H 4250 1050 50  0001 C CNN
+	1    4250 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GCL_Integrated-Circuits:quesctel_EG91-EX U?
+U 1 1 64C90B4A
+P 5700 1275
+AR Path="/64C90B4A" Ref="U?"  Part="1" 
+AR Path="/64C7F7B0/64C90B4A" Ref="U?"  Part="1" 
+F 0 "U?" H 5550 900 39  0000 C CNN
+F 1 "quesctel_EG91-EX" H 5550 825 39  0000 C CNN
+F 2 "" H 5700 1275 39  0001 C CNN
+F 3 "" H 5700 1275 39  0001 C CNN
+	1    5700 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64D376D9
+P 4550 1200
+F 0 "#PWR?" H 4550 950 50  0001 C CNN
+F 1 "GND" H 4555 1027 50  0000 C CNN
+F 2 "" H 4550 1200 60  0000 C CNN
+F 3 "" H 4550 1200 60  0000 C CNN
+	1    4550 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1150 3850 1200
+Wire Wire Line
+	3850 1200 4250 1200
+Wire Wire Line
+	5125 875  4725 875 
+Wire Wire Line
+	3850 875  3850 950 
+Wire Wire Line
+	5125 950  5125 875 
+Text GLabel 4525 825  1    33   Input ~ 0
+VCC_3V3
+Connection ~ 4550 1200
+Wire Wire Line
+	4550 1200 4725 1200
+Wire Wire Line
+	4250 875  4250 950 
+Wire Wire Line
+	4250 1150 4250 1200
+Connection ~ 4250 875 
+Wire Wire Line
+	4250 875  3850 875 
+Connection ~ 4250 1200
+Wire Wire Line
+	4250 1200 4550 1200
+Wire Wire Line
+	4725 875  4725 950 
+Wire Wire Line
+	4725 1150 4725 1200
+Connection ~ 4725 875 
+Wire Wire Line
+	4725 875  4525 875 
+Connection ~ 4725 1200
+Wire Wire Line
+	4725 1200 5125 1200
+Wire Wire Line
+	5125 1200 5125 1150
+$Comp
+L Device:CP1_Small C?
+U 1 1 64D40125
+P 7350 1125
+F 0 "C?" H 7441 1171 50  0000 L CNN
+F 1 "100uF" H 7441 1080 50  0000 L CNN
+F 2 "" H 7350 1125 50  0001 C CNN
+F 3 "~" H 7350 1125 50  0001 C CNN
+	1    7350 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 64D40143
+P 8625 1125
+F 0 "C?" H 8717 1171 50  0000 L CNN
+F 1 "10pF" H 8717 1080 50  0000 L CNN
+F 2 "" H 8625 1125 50  0001 C CNN
+F 3 "~" H 8625 1125 50  0001 C CNN
+	1    8625 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 64D4014D
+P 8225 1125
+F 0 "C?" H 8317 1171 50  0000 L CNN
+F 1 "33pF" H 8317 1080 50  0000 L CNN
+F 2 "" H 8225 1125 50  0001 C CNN
+F 3 "~" H 8225 1125 50  0001 C CNN
+	1    8225 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 64D40157
+P 7750 1125
+F 0 "C?" H 7842 1171 50  0000 L CNN
+F 1 "100nF" H 7842 1080 50  0000 L CNN
+F 2 "" H 7750 1125 50  0001 C CNN
+F 3 "~" H 7750 1125 50  0001 C CNN
+	1    7750 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64D40161
+P 8050 1275
+F 0 "#PWR?" H 8050 1025 50  0001 C CNN
+F 1 "GND" H 8055 1102 50  0000 C CNN
+F 2 "" H 8050 1275 60  0000 C CNN
+F 3 "" H 8050 1275 60  0000 C CNN
+	1    8050 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 1225 7350 1275
+Wire Wire Line
+	7350 1275 7750 1275
+Wire Wire Line
+	8625 950  8225 950 
+Wire Wire Line
+	7350 950  7350 1025
+Wire Wire Line
+	8625 1025 8625 950 
+Text GLabel 8050 875  1    33   Input ~ 0
+VCC_3V3
+Connection ~ 8050 1275
+Wire Wire Line
+	8050 1275 8225 1275
+Wire Wire Line
+	7750 950  7750 1025
+Wire Wire Line
+	7750 1225 7750 1275
+Connection ~ 7750 950 
+Wire Wire Line
+	7750 950  7350 950 
+Connection ~ 7750 1275
+Wire Wire Line
+	7750 1275 8050 1275
+Wire Wire Line
+	8225 950  8225 1025
+Wire Wire Line
+	8225 1225 8225 1275
+Connection ~ 8225 950 
+Wire Wire Line
+	8225 950  8050 950 
+Connection ~ 8225 1275
+Wire Wire Line
+	8225 1275 8625 1275
+Wire Wire Line
+	8625 1275 8625 1225
+Text GLabel 6600 1475 1    33   Input ~ 0
+VCC_3V3
+Wire Wire Line
+	6550 1675 6550 1575
+Wire Wire Line
+	6550 1575 6600 1575
+Wire Wire Line
+	6600 1575 6600 1475
+Wire Wire Line
+	6600 1575 6650 1575
+Wire Wire Line
+	6650 1575 6650 1675
+Connection ~ 6600 1575
+Wire Wire Line
+	6250 1450 6250 1525
+Connection ~ 6250 1525
+Wire Wire Line
+	6250 1525 6300 1525
+Wire Wire Line
+	8050 875  8050 950 
+Connection ~ 8050 950 
+Wire Wire Line
+	8050 950  7750 950 
+Wire Wire Line
+	4525 825  4525 875 
+Connection ~ 4525 875 
+Wire Wire Line
+	4525 875  4250 875 
+$Comp
+L dk_TVS-Diodes:ESD5Z3_3T1G D?
+U 1 1 64D4C7D4
+P 3225 1075
+F 0 "D?" V 3278 947 60  0000 R CNN
+F 1 "SMF11A" V 3172 947 60  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3425 1275 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/ESD5Z2.5T1-D.PDF" H 3425 1375 60  0001 L CNN
+F 4 "SMF11A" H 3425 1475 60  0001 L CNN "Digi-Key_PN"
+F 5 "SMF11A" H 3425 1575 60  0001 L CNN "MPN"
+	1    3225 1075
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3225 800  1    33   Input ~ 0
+VCC_3V3
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64D511F2
+P 3225 1300
+F 0 "#PWR?" H 3225 1050 50  0001 C CNN
+F 1 "GND" H 3230 1127 50  0000 C CNN
+F 2 "" H 3225 1300 60  0000 C CNN
+F 3 "" H 3225 1300 60  0000 C CNN
+	1    3225 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3225 1300 3225 1275
+Wire Wire Line
+	3225 875  3225 800 
+Wire Notes Line
+	6400 575  6400 1600
+Wire Notes Line
+	6400 1600 6100 1600
+Wire Notes Line
+	6100 1600 6100 1475
+Wire Notes Line
+	6100 1475 3750 1475
+Wire Notes Line
+	3750 1475 3750 575 
+Wire Notes Line
+	3750 575  6400 575 
+Wire Notes Line
+	6750 1600 6475 1600
+Wire Notes Line
+	6475 1600 6475 575 
+Wire Notes Line
+	6475 575  9000 575 
+Wire Notes Line
+	9000 575  9000 1500
+Wire Notes Line
+	9000 1500 6750 1500
+Wire Notes Line
+	6750 1500 6750 1600
+Text Notes 3500 925  2    33   ~ 0
+TVS diode\n
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64DA1C87
+P 1625 2725
+AR Path="/64DA1C87" Ref="#PWR?"  Part="1" 
+AR Path="/64C7F7B0/64DA1C87" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1625 2475 50  0001 C CNN
+F 1 "GND" H 1630 2552 50  0000 C CNN
+F 2 "" H 1625 2725 60  0000 C CNN
+F 3 "" H 1625 2725 60  0000 C CNN
+	1    1625 2725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 2625 1625 2725
+$Comp
+L DTC143ZEBTL:DTC143ZEBTL Q?
+U 1 1 64DA1C92
+P 1525 2325
+AR Path="/64DA1C92" Ref="Q?"  Part="1" 
+AR Path="/64C7F7B0/64DA1C92" Ref="Q?"  Part="1" 
+F 0 "Q?" H 1650 2250 50  0000 L CNN
+F 1 "DTC143ZEBTL" H 1625 2175 50  0000 L CNN
+F 2 "greencharge-footprints:SOTFL50P160X85-3N" H 1525 2325 50  0001 L BNN
+F 3 "" H 1525 2325 50  0001 L BNN
+F 4 "ROHM" H 1525 2325 50  0001 L BNN "MANUFACTURER"
+F 5 "0.85mm" H 1525 2325 50  0001 L BNN "MAXIMUM_PACKAGE_HIEGHT"
+F 6 "IPC-7351B" H 1525 2325 50  0001 L BNN "STANDARD"
+F 7 "004" H 1525 2325 50  0001 L BNN "PARTREV"
+	1    1525 2325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1225 2325 1175 2325
+Wire Wire Line
+	1625 2025 1625 1975
+Wire Wire Line
+	1625 1975 4400 1975
+Text HLabel 1175 2325 0    50   Input ~ 0
+4G_MODEM_ON
+Text Notes 1475 2250 2    39   ~ 0
+TURN ON PULSE>=500mS
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64DBE930
+P 1725 3750
+AR Path="/64DBE930" Ref="#PWR?"  Part="1" 
+AR Path="/64C7F7B0/64DBE930" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1725 3500 50  0001 C CNN
+F 1 "GND" H 1730 3577 50  0000 C CNN
+F 2 "" H 1725 3750 60  0000 C CNN
+F 3 "" H 1725 3750 60  0000 C CNN
+	1    1725 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1725 3650 1725 3750
+$Comp
+L DTC143ZEBTL:DTC143ZEBTL Q?
+U 1 1 64DBE947
+P 1625 3350
+AR Path="/64DBE947" Ref="Q?"  Part="1" 
+AR Path="/64C7F7B0/64DBE947" Ref="Q?"  Part="1" 
+F 0 "Q?" H 1750 3275 50  0000 L CNN
+F 1 "DTC143ZEBTL" H 1725 3200 50  0000 L CNN
+F 2 "greencharge-footprints:SOTFL50P160X85-3N" H 1625 3350 50  0001 L BNN
+F 3 "" H 1625 3350 50  0001 L BNN
+F 4 "ROHM" H 1625 3350 50  0001 L BNN "MANUFACTURER"
+F 5 "0.85mm" H 1625 3350 50  0001 L BNN "MAXIMUM_PACKAGE_HIEGHT"
+F 6 "IPC-7351B" H 1625 3350 50  0001 L BNN "STANDARD"
+F 7 "004" H 1625 3350 50  0001 L BNN "PARTREV"
+	1    1625 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1325 3350 1275 3350
+Text HLabel 1275 3350 0    50   Input ~ 0
+4G_MODEM_RESETn
+Text Notes 1575 3275 2    39   ~ 0
+TURN ON PULSE>=500mS
+Wire Wire Line
+	1725 3050 2350 3050
+Wire Wire Line
+	2350 3050 2350 2125
+Wire Wire Line
+	2350 2125 4400 2125
+$Comp
+L New_Connector:SIM_Card J?
+U 1 1 64DC5E60
+P 13625 2525
+F 0 "J?" H 14255 2625 50  0000 L CNN
+F 1 "SIM_Card" H 14255 2534 50  0000 L CNN
+F 2 "" H 13625 2875 50  0001 C CNN
+F 3 "" H 13575 2525 50  0001 C CNN
+	1    13625 2525
+	1    0    0    -1  
+$EndComp
+Text Label 4100 2725 2    50   ~ 0
+USM_GND
+Wire Wire Line
+	4400 2725 4100 2725
+Text Label 4100 2825 2    50   ~ 0
+USM1_VDD
+Wire Wire Line
+	4400 2825 4100 2825
+Text Label 11525 2525 2    50   ~ 0
+USM_GND
+Text Label 11550 2225 2    50   ~ 0
+USM1_VDD
+Wire Wire Line
+	11550 2225 12725 2225
+$Comp
+L Device:C_Small C?
+U 1 1 64DCF0CD
+P 12725 2100
+F 0 "C?" H 12817 2146 50  0000 L CNN
+F 1 "100nF" H 12817 2055 50  0000 L CNN
+F 2 "" H 12725 2100 50  0001 C CNN
+F 3 "~" H 12725 2100 50  0001 C CNN
+	1    12725 2100
+	1    0    0    -1  
+$EndComp
+Text Label 12650 1925 2    50   ~ 0
+USM_GND
+Wire Wire Line
+	12650 1925 12725 1925
+Wire Wire Line
+	12725 1925 12725 2000
+Wire Wire Line
+	12725 2200 12725 2225
+Connection ~ 12725 2225
+Wire Wire Line
+	12725 2225 13125 2225
+Text Label 11525 2325 2    50   ~ 0
+USM1_RST
+Text Label 11525 2425 2    50   ~ 0
+USM1_CLK
+Wire Wire Line
+	11525 2325 12050 2325
+Text Label 11525 2725 2    50   ~ 0
+USM1_DATA
+Wire Wire Line
+	11525 2725 12150 2725
+NoConn ~ 13125 2625
+$Comp
+L Device:C_Small C?
+U 1 1 64DE2A2B
+P 12150 3025
+F 0 "C?" H 12242 3071 50  0000 L CNN
+F 1 "33pF" H 12242 2980 50  0000 L CNN
+F 2 "" H 12150 3025 50  0001 C CNN
+F 3 "~" H 12150 3025 50  0001 C CNN
+	1    12150 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 64DE7299
+P 12550 3025
+F 0 "C?" H 12642 3071 50  0000 L CNN
+F 1 "33pF" H 12642 2980 50  0000 L CNN
+F 2 "" H 12550 3025 50  0001 C CNN
+F 3 "~" H 12550 3025 50  0001 C CNN
+	1    12550 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 64DE8718
+P 12975 3025
+F 0 "C?" H 13067 3071 50  0000 L CNN
+F 1 "33pF" H 13067 2980 50  0000 L CNN
+F 2 "" H 12975 3025 50  0001 C CNN
+F 3 "~" H 12975 3025 50  0001 C CNN
+	1    12975 3025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 2925 12150 2725
+Connection ~ 12150 2725
+Wire Wire Line
+	12150 2725 12325 2725
+Wire Wire Line
+	12550 2925 12550 2425
+Connection ~ 12550 2425
+Wire Wire Line
+	12550 2425 13125 2425
+Wire Wire Line
+	12975 2925 12975 2325
+Connection ~ 12975 2325
+Wire Wire Line
+	12975 2325 13125 2325
+Text Label 11500 2625 2    50   ~ 0
+USM1_VDD
+Wire Wire Line
+	12325 2625 12325 2725
+Connection ~ 12325 2725
+Wire Wire Line
+	12325 2725 13125 2725
+$Comp
+L Device:R_US R?
+U 1 1 64DF7587
+P 12175 2625
+F 0 "R?" V 12125 2475 50  0000 C CNN
+F 1 "15K" V 12125 2800 50  0000 C CNN
+F 2 "" V 12215 2615 50  0001 C CNN
+F 3 "~" H 12175 2625 50  0001 C CNN
+	1    12175 2625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12025 2625 11500 2625
+Wire Wire Line
+	11525 2425 12050 2425
+Wire Wire Line
+	11525 2525 13125 2525
+Wire Wire Line
+	12350 2425 12550 2425
+$Comp
+L Device:R_US R?
+U 1 1 64E01F45
+P 12200 2325
+F 0 "R?" V 12150 2175 50  0000 C CNN
+F 1 "0R" V 12150 2500 50  0000 C CNN
+F 2 "" V 12240 2315 50  0001 C CNN
+F 3 "~" H 12200 2325 50  0001 C CNN
+	1    12200 2325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12350 2325 12975 2325
+$Comp
+L Device:R_US R?
+U 1 1 64E0062C
+P 12200 2425
+F 0 "R?" V 12150 2275 50  0000 C CNN
+F 1 "0R" V 12150 2600 50  0000 C CNN
+F 2 "" V 12240 2415 50  0001 C CNN
+F 3 "~" H 12200 2425 50  0001 C CNN
+	1    12200 2425
+	0    1    1    0   
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64E07515
+P 12150 3200
+F 0 "#PWR?" H 12150 2950 50  0001 C CNN
+F 1 "GND" H 12155 3027 50  0000 C CNN
+F 2 "" H 12150 3200 60  0000 C CNN
+F 3 "" H 12150 3200 60  0000 C CNN
+	1    12150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64E0941B
+P 12550 3200
+F 0 "#PWR?" H 12550 2950 50  0001 C CNN
+F 1 "GND" H 12555 3027 50  0000 C CNN
+F 2 "" H 12550 3200 60  0000 C CNN
+F 3 "" H 12550 3200 60  0000 C CNN
+	1    12550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64E0AD27
+P 12975 3200
+F 0 "#PWR?" H 12975 2950 50  0001 C CNN
+F 1 "GND" H 12980 3027 50  0000 C CNN
+F 2 "" H 12975 3200 60  0000 C CNN
+F 3 "" H 12975 3200 60  0000 C CNN
+	1    12975 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12975 3200 12975 3125
+Wire Wire Line
+	12550 3200 12550 3125
+Wire Wire Line
+	12150 3200 12150 3125
+NoConn ~ 11700 4150
+Wire Wire Line
+	11600 4225 11600 4150
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64E16C41
+P 11600 4225
+AR Path="/61C73AB6/64E16C41" Ref="#PWR?"  Part="1" 
+AR Path="/64C7F7B0/64E16C41" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11600 3975 50  0001 C CNN
+F 1 "GND" H 11675 4100 50  0000 R CNN
+F 2 "" H 11600 4225 60  0000 C CNN
+F 3 "" H 11600 4225 60  0000 C CNN
+	1    11600 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 3425 11800 3500
+Wire Wire Line
+	11700 3425 11700 3500
+Wire Wire Line
+	11600 3425 11600 3500
+Wire Wire Line
+	11500 3425 11500 3500
+$Comp
+L GCL_Integrated-Circuits:ESD5304D-TP U?
+U 1 1 64E16C4B
+P 11950 3650
+AR Path="/61C73AB6/64E16C4B" Ref="U?"  Part="1" 
+AR Path="/64C7F7B0/64E16C4B" Ref="U?"  Part="1" 
+F 0 "U?" V 12087 3588 39  0000 L CNN
+F 1 "ESD5304D-TP" V 12162 3588 39  0000 L CNN
+F 2 "greencharge-footprints:ESD5304D-TP" H 11950 3650 39  0001 C CNN
+F 3 "" H 11950 3650 39  0001 C CNN
+	1    11950 3650
+	0    1    1    0   
+$EndComp
+Text Label 11800 3425 1    50   ~ 0
+USM1_VDD
+Text Label 11700 3425 1    50   ~ 0
+USM1_RST
+Text Label 11600 3425 1    50   ~ 0
+USM1_CLK
+Text Label 11500 3425 1    50   ~ 0
+USM1_DATA
+Text Notes 11950 1750 0    39   ~ 0
+NOTE: Keep placement of (U)SIM card connector to the module as close as possible. Keep the trace length\nas less than 200mm as possible.\nKeep (U)SIM card signals away from RF and VBAT traces.\nMINIMIZE cross talk.
+Wire Wire Line
+	4400 2425 4075 2425
+Wire Wire Line
+	4075 2525 4400 2525
+NoConn ~ 1800 5150
+Wire Wire Line
+	1700 5225 1700 5150
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64E33772
+P 1700 5225
+AR Path="/61C73AB6/64E33772" Ref="#PWR?"  Part="1" 
+AR Path="/64C7F7B0/64E33772" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1700 4975 50  0001 C CNN
+F 1 "GND" H 1775 5100 50  0000 R CNN
+F 2 "" H 1700 5225 60  0000 C CNN
+F 3 "" H 1700 5225 60  0000 C CNN
+	1    1700 5225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4425 1900 4500
+Wire Wire Line
+	1800 4425 1800 4500
+Wire Wire Line
+	1700 4425 1700 4500
+Wire Wire Line
+	1600 4425 1600 4500
+$Comp
+L GCL_Integrated-Circuits:ESD5304D-TP U?
+U 1 1 64E33780
+P 2050 4650
+AR Path="/61C73AB6/64E33780" Ref="U?"  Part="1" 
+AR Path="/64C7F7B0/64E33780" Ref="U?"  Part="1" 
+F 0 "U?" V 2187 4588 39  0000 L CNN
+F 1 "ESD5304D-TP" V 2262 4588 39  0000 L CNN
+F 2 "greencharge-footprints:ESD5304D-TP" H 2050 4650 39  0001 C CNN
+F 3 "" H 2050 4650 39  0001 C CNN
+	1    2050 4650
+	0    1    1    0   
+$EndComp
+Text Label 1700 4425 1    39   ~ 0
+USB_D+
+Text Label 1600 4425 1    39   ~ 0
+USB_D-
+Wire Wire Line
+	4400 2325 4175 2325
+Wire Wire Line
+	4175 2325 4175 2225
+Text GLabel 4175 2225 0    33   Input ~ 0
+VCC_3V3
+Text Label 4100 3125 2    50   ~ 0
+USM1_RST
+Text Label 4100 3025 2    50   ~ 0
+USM1_CLK
+Text Label 4100 2925 2    50   ~ 0
+USM1_DATA
+Wire Wire Line
+	4400 2925 4100 2925
+Wire Wire Line
+	4100 3025 4400 3025
+Wire Wire Line
+	4100 3125 4400 3125
+NoConn ~ 4400 3225
+Text HLabel 8775 3375 2    39   Input ~ 0
+4G_MODULE_SCL
+Text HLabel 8775 3475 2    39   Input ~ 0
+4G_MODULE_SDA
+Wire Wire Line
+	8500 3375 8775 3375
+Wire Wire Line
+	8500 3475 8775 3475
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64E69C0E
+P 10475 3525
+AR Path="/64E69C0E" Ref="#PWR?"  Part="1" 
+AR Path="/64C7F7B0/64E69C0E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10475 3275 50  0001 C CNN
+F 1 "GND" H 10480 3352 50  0000 C CNN
+F 2 "" H 10475 3525 60  0000 C CNN
+F 3 "" H 10475 3525 60  0000 C CNN
+	1    10475 3525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10475 3425 10475 3525
+$Comp
+L DTC143ZEBTL:DTC143ZEBTL Q?
+U 1 1 64E69C25
+P 10375 3125
+AR Path="/64E69C25" Ref="Q?"  Part="1" 
+AR Path="/64C7F7B0/64E69C25" Ref="Q?"  Part="1" 
+F 0 "Q?" H 10500 3050 50  0000 L CNN
+F 1 "DTC143ZEBTL" H 10475 2975 50  0000 L CNN
+F 2 "greencharge-footprints:SOTFL50P160X85-3N" H 10375 3125 50  0001 L BNN
+F 3 "" H 10375 3125 50  0001 L BNN
+F 4 "ROHM" H 10375 3125 50  0001 L BNN "MANUFACTURER"
+F 5 "0.85mm" H 10375 3125 50  0001 L BNN "MAXIMUM_PACKAGE_HIEGHT"
+F 6 "IPC-7351B" H 10375 3125 50  0001 L BNN "STANDARD"
+F 7 "004" H 10375 3125 50  0001 L BNN "PARTREV"
+	1    10375 3125
+	1    0    0    -1  
+$EndComp
+Text Notes 10325 3050 2    39   ~ 0
+ Network Status Indicato
+Wire Wire Line
+	8500 3125 10075 3125
+$Comp
+L Device:LED D?
+U 1 1 64E79C4F
+P 10475 2650
+F 0 "D?" V 10514 2532 50  0000 R CNN
+F 1 "LED" V 10423 2532 50  0000 R CNN
+F 2 "" H 10475 2650 50  0001 C CNN
+F 3 "~" H 10475 2650 50  0001 C CNN
+	1    10475 2650
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10475 2450 1    33   Input ~ 0
+VCC_3V3
+Wire Wire Line
+	10475 2450 10475 2500
+Wire Wire Line
+	10475 2800 10475 2825
+NoConn ~ 8500 2975
+NoConn ~ 8500 2625
+NoConn ~ 8500 2325
+$Comp
+L Device:Antenna_Shield AE?
+U 1 1 64E932EA
+P 9425 1725
+F 0 "AE?" H 9125 1775 50  0000 L CNN
+F 1 "Antenna_Shield" H 8850 1700 50  0000 L CNN
+F 2 "" H 9425 1825 50  0001 C CNN
+F 3 "~" H 9425 1825 50  0001 C CNN
+	1    9425 1725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 64E953C0
+P 8875 1975
+F 0 "R?" V 8825 1825 50  0000 C CNN
+F 1 "0R" V 8825 2150 50  0000 C CNN
+F 2 "" V 8915 1965 50  0001 C CNN
+F 3 "~" H 8875 1975 50  0001 C CNN
+	1    8875 1975
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 64E98A18
+P 8850 2175
+F 0 "R?" V 8800 2025 50  0000 C CNN
+F 1 "0R" V 8800 2350 50  0000 C CNN
+F 2 "" V 8890 2165 50  0001 C CNN
+F 3 "~" H 8850 2175 50  0001 C CNN
+	1    8850 2175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 1975 8725 1975
+Wire Wire Line
+	9425 1975 9425 1925
+Wire Wire Line
+	9025 1975 9425 1975
+$Comp
+L Device:Antenna_Shield AE?
+U 1 1 64E9EC1D
+P 9950 1725
+F 0 "AE?" H 10094 1764 50  0000 L CNN
+F 1 "Antenna_Shield" H 10094 1673 50  0000 L CNN
+F 2 "" H 9950 1825 50  0001 C CNN
+F 3 "~" H 9950 1825 50  0001 C CNN
+	1    9950 1725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2175 8700 2175
+Wire Wire Line
+	9950 2175 9950 1925
+Wire Wire Line
+	9000 2175 9950 2175
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64EA971B
+P 10050 1975
+AR Path="/64EA971B" Ref="#PWR?"  Part="1" 
+AR Path="/64C7F7B0/64EA971B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10050 1725 50  0001 C CNN
+F 1 "GND" H 10055 1802 50  0000 C CNN
+F 2 "" H 10050 1975 60  0000 C CNN
+F 3 "" H 10050 1975 60  0000 C CNN
+	1    10050 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64EACE15
+P 9525 1950
+AR Path="/64EACE15" Ref="#PWR?"  Part="1" 
+AR Path="/64C7F7B0/64EACE15" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9525 1700 50  0001 C CNN
+F 1 "GND" H 9530 1777 50  0000 C CNN
+F 2 "" H 9525 1950 60  0000 C CNN
+F 3 "" H 9525 1950 60  0000 C CNN
+	1    9525 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9525 1950 9525 1925
+Wire Wire Line
+	10050 1975 10050 1925
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 64EB91EF
+P 6400 7075
+AR Path="/61C73AB6/64EB91EF" Ref="#PWR?"  Part="1" 
+AR Path="/64C7F7B0/64EB91EF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6400 6825 50  0001 C CNN
+F 1 "GND" H 6475 6950 50  0000 R CNN
+F 2 "" H 6400 7075 60  0000 C CNN
+F 3 "" H 6400 7075 60  0000 C CNN
+	1    6400 7075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6875 4700 7000
+Wire Wire Line
+	4700 7000 4800 7000
+Wire Wire Line
+	8200 7000 8200 6875
+Wire Wire Line
+	8100 6875 8100 7000
+Connection ~ 8100 7000
+Wire Wire Line
+	8100 7000 8200 7000
+Wire Wire Line
+	8000 6875 8000 7000
+Connection ~ 8000 7000
+Wire Wire Line
+	8000 7000 8100 7000
+Wire Wire Line
+	7900 6875 7900 7000
+Connection ~ 7900 7000
+Wire Wire Line
+	7900 7000 8000 7000
+Wire Wire Line
+	7800 6875 7800 7000
+Wire Wire Line
+	7700 6875 7700 7000
+Wire Wire Line
+	7600 6875 7600 7000
+Connection ~ 7600 7000
+Wire Wire Line
+	7600 7000 7700 7000
+Connection ~ 7700 7000
+Wire Wire Line
+	7700 7000 7800 7000
+Connection ~ 7800 7000
+Wire Wire Line
+	7800 7000 7900 7000
+Wire Wire Line
+	7450 6875 7450 7000
+Wire Wire Line
+	7350 6875 7350 7000
+Wire Wire Line
+	7200 6875 7200 7000
+Wire Wire Line
+	7100 6875 7100 7000
+Wire Wire Line
+	7000 6875 7000 7000
+Wire Wire Line
+	6900 6875 6900 7000
+Connection ~ 7350 7000
+Wire Wire Line
+	7350 7000 7450 7000
+Connection ~ 7450 7000
+Wire Wire Line
+	7450 7000 7600 7000
+Connection ~ 7200 7000
+Wire Wire Line
+	7200 7000 7350 7000
+Connection ~ 6900 7000
+Connection ~ 7000 7000
+Connection ~ 7100 7000
+Wire Wire Line
+	6900 7000 7000 7000
+Wire Wire Line
+	7000 7000 7100 7000
+Wire Wire Line
+	7100 7000 7200 7000
+Wire Wire Line
+	6650 6875 6650 7000
+Wire Wire Line
+	6550 6875 6550 7000
+Wire Wire Line
+	6450 6875 6450 7000
+Wire Wire Line
+	6350 6875 6350 7000
+Connection ~ 6350 7000
+Wire Wire Line
+	6350 7000 6400 7000
+Connection ~ 6450 7000
+Wire Wire Line
+	6450 7000 6550 7000
+Connection ~ 6550 7000
+Wire Wire Line
+	6550 7000 6650 7000
+Connection ~ 6650 7000
+Wire Wire Line
+	6650 7000 6800 7000
+Wire Wire Line
+	6800 6875 6800 7000
+Connection ~ 6800 7000
+Wire Wire Line
+	6800 7000 6900 7000
+Wire Wire Line
+	6250 6875 6250 7000
+Connection ~ 6250 7000
+Wire Wire Line
+	6250 7000 6350 7000
+Wire Wire Line
+	6050 6875 6050 7000
+Wire Wire Line
+	5950 6875 5950 7000
+Wire Wire Line
+	5850 6875 5850 7000
+Wire Wire Line
+	5750 6875 5750 7000
+Wire Wire Line
+	5650 6875 5650 7000
+Connection ~ 5650 7000
+Wire Wire Line
+	5650 7000 5750 7000
+Connection ~ 5750 7000
+Wire Wire Line
+	5750 7000 5850 7000
+Connection ~ 5850 7000
+Wire Wire Line
+	5850 7000 5950 7000
+Connection ~ 5950 7000
+Wire Wire Line
+	5950 7000 6050 7000
+Connection ~ 6050 7000
+Wire Wire Line
+	6050 7000 6250 7000
+Wire Wire Line
+	5500 6875 5500 7000
+Wire Wire Line
+	5400 6875 5400 7000
+Wire Wire Line
+	5300 6875 5300 7000
+Wire Wire Line
+	5200 6875 5200 7000
+Wire Wire Line
+	5100 6875 5100 7000
+Connection ~ 5100 7000
+Wire Wire Line
+	5100 7000 5200 7000
+Connection ~ 5200 7000
+Wire Wire Line
+	5200 7000 5300 7000
+Connection ~ 5300 7000
+Wire Wire Line
+	5300 7000 5400 7000
+Connection ~ 5400 7000
+Wire Wire Line
+	5400 7000 5500 7000
+Connection ~ 5500 7000
+Wire Wire Line
+	5500 7000 5650 7000
+Wire Wire Line
+	4900 6875 4900 7000
+Wire Wire Line
+	4800 6875 4800 7000
+Connection ~ 4800 7000
+Connection ~ 4900 7000
+Wire Wire Line
+	4800 7000 4900 7000
+Wire Wire Line
+	4900 7000 5100 7000
+Wire Wire Line
+	6400 7075 6400 7000
+Connection ~ 6400 7000
+Wire Wire Line
+	6400 7000 6450 7000
+Text Notes 8300 7300 2    39   ~ 0
+NOTE: Ensure proper heat decipation
+Text HLabel 4075 2425 0    39   Input ~ 0
+4G_MODULE_USB_D+
+Text HLabel 4075 2525 0    39   Input ~ 0
+4G_MODULE_USB_D-
+$EndSCHEMATC

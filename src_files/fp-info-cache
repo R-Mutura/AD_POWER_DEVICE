@@ -1,4 +1,4 @@
-20967977321499194
+20971256643914167
 74438357068_ind
 74438357068
 
@@ -89975,6 +89975,13 @@ DFP1006-2L
 2
 2
 greencharge-footprints
+ER-OLED0.91-7W
+
+
+0
+16
+15
+greencharge-footprints
 ESD5304D-TP
 
 
@@ -90345,6 +90352,13 @@ WM9364CT
 0
 14
 7
+greencharge-footprints
+XCVR_EG91EFB-512-SNND
+
+
+0
+106
+106
 greencharge-footprints
 XF2M60151AH
 XF2M-6015-1AH-2
