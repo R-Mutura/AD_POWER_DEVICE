@@ -1,4 +1,4 @@
-20971256643914167
+20981094988603539
 74438357068_ind
 74438357068
 
@@ -79503,6 +79503,20 @@ Connector
 10
 10
 SamacSys_Parts_2
+2059570271
+205957-0271-1
+Connector
+0
+4
+4
+SamacSys_Parts_2
+BATHLD001
+BAT-HLD-001
+Undefined or Miscellaneous
+0
+3
+3
+SamacSys_Parts_2
 BGA80C65P10X10_700X700X100
 TC358870XBG package (P-VFBGA80-0707-0.65-001)
 Integrated Circuit
@@ -89884,6 +89898,13 @@ greencharge-footprints
 12
 12
 greencharge-footprints
+2059570271
+205957-0271-1
+Connector
+0
+4
+4
+greencharge-footprints
 ACT510X
 
 
@@ -89904,6 +89925,13 @@ AP43771
 0
 15
 15
+greencharge-footprints
+BATHLD001
+BAT-HLD-001
+Undefined or Miscellaneous
+0
+3
+3
 greencharge-footprints
 BGA-64_8x8_7.0x7.0mm_MCDP2900
 
@@ -90093,6 +90121,13 @@ MICRO-SD-Module
 0
 6
 6
+greencharge-footprints
+MOLEX_78800-0001
+
+
+0
+10
+10
 greencharge-footprints
 MOLEX_430450400
 
@@ -90345,6 +90380,13 @@ USB-C-MALE-104238-0110
 0
 24
 24
+greencharge-footprints
+VS1797SM
+
+
+0
+20
+20
 greencharge-footprints
 WM9364CT
 

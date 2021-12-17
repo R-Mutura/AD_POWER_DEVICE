@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 13
+Sheet 13 13
 Title ""
 Date ""
 Rev ""
@@ -123,26 +123,8 @@ Wire Wire Line
 	3750 1375 4025 1375
 Wire Wire Line
 	4025 1275 3750 1275
-Text HLabel 3150 2650 0    33   Input ~ 0
-eMMC_CMD_FLASH_WRn
-Text HLabel 3150 2500 0    33   Input ~ 0
-eMMC_D7_FLASH_D7
-Text HLabel 3150 2400 0    33   Input ~ 0
-eMMC_D6_FLASH_D6
-Text HLabel 3150 2300 0    33   Input ~ 0
-eMMC_D5_FLASH_D5
-Text HLabel 3150 2200 0    33   Input ~ 0
-eMMC_D4_FLASH_D4
-Text HLabel 3150 2100 0    33   Input ~ 0
-eMMC_D3_FLASH_D3
-Text HLabel 3150 2000 0    33   Input ~ 0
-eMMC_D2_FLASH_D2
-Text HLabel 3150 1900 0    33   Input ~ 0
-eMMC_D1_FLASH_D1
 Wire Wire Line
 	4025 1175 3750 1175
-Text HLabel 3150 1800 0    33   Input ~ 0
-eMMC_D0_FLASH_D0
 Text HLabel 3750 1175 0    39   Input ~ 0
 GPIO1_B4_DISPLAY_ONE
 Text HLabel 3750 1275 0    39   Input ~ 0
@@ -194,4 +176,59 @@ Wire Wire Line
 	4025 4625 3675 4625
 Wire Wire Line
 	3675 4725 4025 4725
+Text HLabel 3850 3375 0    50   Input ~ 0
+UART6_RX_M1
+Text HLabel 3850 3275 0    50   Input ~ 0
+UART6_TX_M1
+Wire Wire Line
+	4025 3275 3850 3275
+Wire Wire Line
+	3850 3375 4025 3375
+Text GLabel 3100 3925 0    33   Input ~ 7
+VCCIO_SD
+Wire Wire Line
+	3100 3925 3175 3925
+$Comp
+L Device:C_Small C?
+U 1 1 65AF545B
+P 3175 4100
+F 0 "C?" H 3267 4146 50  0000 L CNN
+F 1 "100nF" H 3267 4055 50  0000 L CNN
+F 2 "" H 3175 4100 50  0001 C CNN
+F 3 "~" H 3175 4100 50  0001 C CNN
+	1    3175 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 4000 3175 3925
+Connection ~ 3175 3925
+Wire Wire Line
+	3175 3925 4025 3925
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 65AF8D31
+P 3175 4250
+F 0 "#PWR?" H 3175 4000 50  0001 C CNN
+F 1 "GND" H 3180 4077 50  0000 C CNN
+F 2 "" H 3175 4250 60  0000 C CNN
+F 3 "" H 3175 4250 60  0000 C CNN
+	1    3175 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3175 4250 3175 4200
+Text Notes 3575 5275 3    33   ~ 0
+SATA_INTERFACE\nZ=90 Ohms
+Text HLabel 3775 8225 0    50   Input ~ 0
+I2C4_SDA_M0_TO_NFC_SDA
+Text HLabel 3775 8325 0    50   Input ~ 0
+I2C4_SDA_M0_TO_NFC_SCL
+Wire Wire Line
+	4025 8225 3775 8225
+Wire Wire Line
+	3775 8325 4025 8325
+Text HLabel 3775 8125 0    50   Input ~ 0
+GPIO4_B1_d_TO_NFC_REQ
+Wire Wire Line
+	4025 8125 3775 8125
 $EndSCHEMATC
