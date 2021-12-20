@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 13
+Sheet 2 15
 Title ""
 Date ""
 Rev ""
@@ -843,11 +843,6 @@ Connection ~ 4475 9800
 Wire Wire Line
 	4475 9800 4475 9900
 Connection ~ 4475 9900
-Wire Wire Line
-	4475 6400 4475 6900
-Connection ~ 4475 6400
-Wire Wire Line
-	4475 6300 4475 6400
 Connection ~ 4475 6300
 Wire Wire Line
 	4475 6200 4475 6300
@@ -1529,8 +1524,6 @@ Wire Wire Line
 Wire Wire Line
 	8825 1700 9125 1700
 Wire Wire Line
-	4475 6400 4775 6400
-Wire Wire Line
 	4775 6300 4475 6300
 Wire Wire Line
 	4475 6200 4775 6200
@@ -1686,4 +1679,6 @@ F 3 "" H 6225 700 50  0001 C CNN
 	1    6775 800 
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4475 6300 4475 6900
 $EndSCHEMATC

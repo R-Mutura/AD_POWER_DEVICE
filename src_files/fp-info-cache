@@ -1,4 +1,4 @@
-20981094988603539
+21018813096394961
 74438357068_ind
 74438357068
 
@@ -79587,6 +79587,13 @@ Transformer
 24
 24
 SamacSys_Parts_2
+INDPM3630X150N
+ER
+Inductor
+0
+2
+2
+SamacSys_Parts_2
 INDPM4040X200N
 YR1B732RCC
 Inductor
@@ -79621,6 +79628,13 @@ Inductor
 0
 2
 2
+SamacSys_Parts_2
+L70RELM37EIT
+L70REL-M37-EIT-1
+Integrated Circuit
+0
+18
+18
 SamacSys_Parts_2
 LP38511TJADJNOPB
 NDQ0005A
@@ -79726,6 +79740,13 @@ Power Supply
 0
 4
 4
+SamacSys_Parts_2
+RLF12560T2R7N110
+RLF12560T-2R7N110-2
+Inductor
+0
+2
+2
 SamacSys_Parts_2
 S194146R
 S1941-46R-1
@@ -79880,6 +79901,13 @@ Integrated Circuit
 0
 6
 6
+SamacSys_Parts_2
+TPS62865RQYR
+RQY0009A_2021
+Integrated Circuit
+0
+9
+9
 SamacSys_Parts_2
 XF2M60151AH
 XF2M-6015-1AH-2
@@ -89870,6 +89898,13 @@ Zigbee_Module_MRF24J40MD
 12
 12
 greencharge-footprints
+7443550600
+
+
+0
+2
+2
+greencharge-footprints
 3M_5622-6309-ML
 
 
@@ -89897,6 +89932,13 @@ greencharge-footprints
 0
 12
 12
+greencharge-footprints
+252010CDMCDDS-R47MC
+
+
+0
+2
+2
 greencharge-footprints
 2059570271
 205957-0271-1
@@ -89939,6 +89981,13 @@ BGA-64_8x8_7.0x7.0mm_MCDP2900
 0
 64
 64
+greencharge-footprints
+BGA-1330_38x35_15.5x14.4mm
+
+
+0
+222
+222
 greencharge-footprints
 BGA200C65P12X22_1000X1450X80
 200ball FBGA
@@ -90003,12 +90052,26 @@ DFP1006-2L
 2
 2
 greencharge-footprints
+DIODFN2_98X58X50L26X51N
+
+
+0
+2
+2
+greencharge-footprints
 ER-OLED0.91-7W
 
 
 0
 16
 15
+greencharge-footprints
+ESD9X5VU_DFN1006-2
+
+
+0
+2
+2
 greencharge-footprints
 ESD5304D-TP
 
@@ -90058,6 +90121,27 @@ Relay or Contactor
 0
 5
 5
+greencharge-footprints
+GCT_USB4056-03-A_REVA
+
+
+0
+28
+28
+greencharge-footprints
+HRS_U.FL-R-SMT-1(10)
+
+
+0
+3
+3
+greencharge-footprints
+INDPM3630X150N
+ER
+Inductor
+0
+2
+2
 greencharge-footprints
 INDPM172172X700N
 IHLP6767GZER470M11
@@ -90164,6 +90248,13 @@ PULSE_PA4342.332NLT
 2
 2
 greencharge-footprints
+QFN-68_EP_7x7_Pitch0.35mm
+
+
+0
+84
+69
+greencharge-footprints
 QFN40P500X500X90-41N-D
 TS80003-QFNR
 Integrated Circuit
@@ -90198,6 +90289,20 @@ RF-RX-433
 0
 7
 7
+greencharge-footprints
+RK366_BGA-565_20x18_15.5x14.4mm
+
+
+0
+565
+510
+greencharge-footprints
+RLF12560T2R7N110
+RLF12560T-2R7N110-2
+Inductor
+0
+2
+2
 greencharge-footprints
 RTC-DS1307-Module
 
@@ -90248,12 +90353,26 @@ SKRPACE010
 4
 4
 greencharge-footprints
+SMAG
+
+
+0
+2
+2
+greencharge-footprints
 SMC-216
 
 
 0
 8
 7
+greencharge-footprints
+SNR3015K-3R3M
+
+
+0
+2
+2
 greencharge-footprints
 SON50P300X300X80-9N
 NGQ0008A
@@ -90311,6 +90430,20 @@ Integrated Circuit
 25
 25
 greencharge-footprints
+SW_SKRPACE010
+
+
+0
+4
+4
+greencharge-footprints
+SY6912A
+
+
+0
+9
+9
+greencharge-footprints
 SpringContact_Harwin_S1941-46R
 7.25mm SMT Multi-directional Spring Contact (T+R), https://cdn.harwin.com/pdfs/S1941R.pdf
 spring contact emi emc shield
@@ -90367,6 +90500,20 @@ Integrated Circuit
 8
 8
 greencharge-footprints
+TPS61288RQQR
+TPS61288RQQR-3
+Integrated Circuit
+0
+15
+15
+greencharge-footprints
+TPS62865RQYR
+RQY0009A_2021
+Integrated Circuit
+0
+9
+9
+greencharge-footprints
 U254051N4BH806
 U254-051N-4BH806-2
 Connector
@@ -90395,6 +90542,13 @@ WM9364CT
 14
 7
 greencharge-footprints
+WPN4020H2R2MT
+
+
+0
+2
+2
+greencharge-footprints
 XCVR_EG91EFB-512-SNND
 
 
@@ -90415,6 +90569,13 @@ YSPI1050-xxx
 0
 2
 2
+greencharge-footprints
+ap6256_QFN-44_12.5x12.5_Pitch0.9mm
+
+
+0
+47
+47
 greencharge-footprints
 coil_760308102144
 

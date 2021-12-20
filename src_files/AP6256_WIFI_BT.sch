@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 13
+Sheet 5 15
 Title ""
 Date ""
 Rev ""
@@ -13,19 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:Antenna_Shield AE?
-U 1 1 629B6A49
-P 1100 1175
-AR Path="/629B6A49" Ref="AE?"  Part="1" 
-AR Path="/629B27D4/629B6A49" Ref="AE1"  Part="1" 
-F 0 "AE1" H 1244 1214 50  0000 L CNN
-F 1 "Antenna_Shield" H 1244 1123 50  0000 L CNN
-F 2 "" H 1100 1275 50  0001 C CNN
-F 3 "~" H 1100 1275 50  0001 C CNN
-	1    1100 1175
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 629B6A4F
@@ -40,51 +27,7 @@ F 3 "~" H 1675 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1100 1375 1100 1550
-Wire Wire Line
 	1100 1550 1575 1550
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 629B6A57
-P 1100 1825
-AR Path="/629B6A57" Ref="FB?"  Part="1" 
-AR Path="/629B27D4/629B6A57" Ref="FB1"  Part="1" 
-F 0 "FB1" H 1200 1871 50  0000 L CNN
-F 1 "Ferrite_Bead_Small" H 1200 1780 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" V 1030 1825 50  0001 C CNN
-F 3 "~" H 1100 1825 50  0001 C CNN
-	1    1100 1825
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 629B6A5D
-P 2100 1850
-AR Path="/629B6A5D" Ref="FB?"  Part="1" 
-AR Path="/629B27D4/629B6A5D" Ref="FB2"  Part="1" 
-F 0 "FB2" H 2200 1896 50  0000 L CNN
-F 1 "Ferrite_Bead_Small" H 2200 1805 50  0000 L CNN
-F 2 "Inductor_SMD:L_0201_0603Metric" V 2030 1850 50  0001 C CNN
-F 3 "~" H 2100 1850 50  0001 C CNN
-	1    2100 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 1750 2100 1550
-Wire Wire Line
-	2100 1550 1775 1550
-Wire Wire Line
-	1100 1725 1100 1550
-Connection ~ 1100 1550
-Wire Wire Line
-	1100 1925 1100 2050
-Wire Wire Line
-	1100 2050 2100 2050
-Wire Wire Line
-	2100 2050 2100 1950
-Wire Wire Line
-	2100 1550 2450 1550
-Connection ~ 2100 1550
 Text Label 2450 1550 0    33   ~ 0
 ANT
 Text Label 3750 1850 2    33   ~ 0
@@ -189,8 +132,9 @@ AR Path="/629B6A71" Ref="Y?"  Part="1"
 AR Path="/629B27D4/629B6A71" Ref="Y2"  Part="1" 
 F 0 "Y2" V 1750 2725 50  0000 L CNN
 F 1 "37.4MHz_10PPM" V 1375 2275 50  0000 L CNN
-F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering" H 1600 2600 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" H 1600 2600 50  0001 C CNN
 F 3 "~" H 1600 2600 50  0001 C CNN
+F 4 "XRCGB37M400F1S1AR0" V 1600 2600 50  0001 C CNN "MPN"
 	1    1600 2600
 	0    -1   -1   0   
 $EndComp
@@ -236,8 +180,6 @@ Wire Wire Line
 Wire Wire Line
 	3925 2050 3750 2050
 Wire Wire Line
-	3925 1850 3750 1850
-Wire Wire Line
 	4875 4650 4875 4775
 Wire Wire Line
 	4875 4775 4975 4775
@@ -254,7 +196,7 @@ AR Path="/629B6A43" Ref="U?"  Part="1"
 AR Path="/629B27D4/629B6A43" Ref="U3"  Part="1" 
 F 0 "U3" H 4450 1400 33  0000 C CNN
 F 1 "AP6256" H 4425 1325 33  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-44-1EP_8x8mm_P0.65mm_EP6.45x6.45mm" H 4275 1400 33  0001 C CNN
+F 2 "greencharge-footprints:ap6256_QFN-44_12.5x12.5_Pitch0.9mm" H 4275 1400 33  0001 C CNN
 F 3 "" H 4275 1400 33  0001 C CNN
 	1    4275 1400
 	1    0    0    -1  
@@ -273,7 +215,7 @@ L Device:C_Small C78
 U 1 1 629CCC50
 P 1900 3575
 F 0 "C78" H 1992 3621 50  0000 L CNN
-F 1 "100n" H 1992 3530 50  0000 L CNN
+F 1 "100nF" H 1992 3530 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 1900 3575 50  0001 C CNN
 F 3 "~" H 1900 3575 50  0001 C CNN
 	1    1900 3575
@@ -416,19 +358,6 @@ Wire Wire Line
 Connection ~ 4075 750 
 $Comp
 L OLIMEX_Power:GND #PWR?
-U 1 1 629B6A92
-P 1200 1375
-AR Path="/629B6A92" Ref="#PWR?"  Part="1" 
-AR Path="/629B27D4/629B6A92" Ref="#PWR0180"  Part="1" 
-F 0 "#PWR0180" H 1200 1125 50  0001 C CNN
-F 1 "GND" H 1300 1275 50  0000 C CNN
-F 2 "" H 1200 1375 60  0000 C CNN
-F 3 "" H 1200 1375 60  0000 C CNN
-	1    1200 1375
-	1    0    0    -1  
-$EndComp
-$Comp
-L OLIMEX_Power:GND #PWR?
 U 1 1 629F302E
 P 4100 1025
 AR Path="/629F302E" Ref="#PWR?"  Part="1" 
@@ -451,8 +380,9 @@ U 1 1 629F78DD
 P 6625 1650
 F 0 "L9" H 6625 1865 50  0000 C CNN
 F 1 "3.3uH_1.32A_0.08Ohm" H 6625 1774 50  0000 C CNN
-F 2 "greencharge-footprints:S6125-M2-3.0A" H 6625 1650 60  0001 C CNN
+F 2 "greencharge-footprints:SNR3015K-3R3M" H 6625 1650 60  0001 C CNN
 F 3 "" H 6625 1650 60  0000 C CNN
+F 4 "SNR3015K-3R3M" H 6625 1650 50  0001 C CNN "MPN"
 	1    6625 1650
 	1    0    0    -1  
 $EndComp
@@ -546,9 +476,9 @@ Connection ~ 5425 1000
 Wire Wire Line
 	5425 1000 5600 1000
 Text GLabel 4825 1325 1    33   Input ~ 0
-VCCIO_W
+VCCIO_WL
 Text GLabel 5325 625  0    33   Input ~ 0
-VCCIO_W
+VCCIO_WL
 Wire Wire Line
 	5225 725  5425 725 
 Wire Wire Line
@@ -659,4 +589,52 @@ F 3 "" H 1900 3750 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	1900 3750 1900 3675
+$Comp
+L U.FL-R-SMT-1_10_:U.FL-R-SMT-1(10) J?
+U 1 1 61E5D3CF
+P 825 1350
+AR Path="/64C7F7B0/61E5D3CF" Ref="J?"  Part="1" 
+AR Path="/629B27D4/61E5D3CF" Ref="J16"  Part="1" 
+F 0 "J16" H 800 1625 50  0000 L CNN
+F 1 "U.FL-R-SMT-1(10)" H 575 1525 50  0000 L CNN
+F 2 "greencharge-footprints:HRS_U.FL-R-SMT-1(10)" H 825 1350 50  0001 L BNN
+F 3 "" H 825 1350 50  0001 L BNN
+F 4 "U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle" H 825 1350 50  0001 L BNN "DESCRIPTION"
+F 5 "Manufacturer Recommendation" H 825 1350 50  0001 L BNN "STANDARD"
+F 6 "Good" H 825 1350 50  0001 L BNN "AVAILABILITY"
+F 7 "0.71 USD" H 825 1350 50  0001 L BNN "PRICE"
+F 8 "Hirose" H 825 1350 50  0001 L BNN "MANUFACTURER"
+F 9 "U.FL-R-SMT-1_10_" H 825 1350 50  0001 L BNN "MPN"
+F 10 "None" H 825 1350 50  0001 L BNN "PACKAGE"
+	1    825  1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR?
+U 1 1 61E5D3D5
+P 975 1500
+AR Path="/61E5D3D5" Ref="#PWR?"  Part="1" 
+AR Path="/64C7F7B0/61E5D3D5" Ref="#PWR?"  Part="1" 
+AR Path="/629B27D4/61E5D3D5" Ref="#PWR0279"  Part="1" 
+F 0 "#PWR0279" H 975 1250 50  0001 C CNN
+F 1 "GND" H 875 1400 50  0000 C CNN
+F 2 "" H 975 1500 60  0000 C CNN
+F 3 "" H 975 1500 60  0000 C CNN
+	1    975  1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	925  1450 975  1450
+Wire Wire Line
+	975  1450 975  1500
+Wire Wire Line
+	1100 1350 925  1350
+Wire Wire Line
+	1100 1350 1100 1550
+Wire Wire Line
+	3450 1550 3450 1850
+Wire Wire Line
+	3450 1850 3925 1850
+Wire Wire Line
+	1775 1550 3450 1550
 $EndSCHEMATC
