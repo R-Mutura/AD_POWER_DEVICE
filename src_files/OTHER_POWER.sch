@@ -537,20 +537,6 @@ Wire Wire Line
 	3075 3625 3075 4275
 Wire Wire Line
 	2125 3625 3075 3625
-$Comp
-L GCL_Integrated-Circuits:TPS61288RQQR IC2
-U 1 1 628B7040
-P 4425 3525
-F 0 "IC2" H 4425 3690 50  0000 C CNN
-F 1 "TPS61288RQQR" H 4425 3599 50  0000 C CNN
-F 2 "greencharge-footprints:TPS61288RQQR" H 4925 3525 50  0001 L CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tps61288.pdf?ts=1609351344517&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Fnon-isolated-dc-dc-switching-regulators%252Fstep-up-boost%252Fboost-converters-integrated-switch%252Fproducts.html" H 6075 2275 50  0001 L CNN
-F 4 "18V, 15A synch boost converter" V 6625 2625 50  0001 L CNN "Description"
-F 5 "Texas Instruments" H 4925 3375 50  0001 L CNN "Manufacturer_Name"
-F 6 "TPS61288RQQR" H 6075 2525 50  0001 L CNN "Manufacturer_Part_Number"
-	1    4425 3525
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3275 4125 3775 4125
 Wire Wire Line
@@ -1262,4 +1248,18 @@ Wire Wire Line
 Connection ~ 5200 3925
 Wire Wire Line
 	5200 3925 6225 3925
+$Comp
+L GCL_Integrated-Circuits:TPS61288RQQR IC2
+U 1 1 628B7040
+P 4425 3525
+F 0 "IC2" H 4425 3690 50  0000 C CNN
+F 1 "TPS61288RQQR" H 4425 3599 50  0000 C CNN
+F 2 "greencharge-footprints:TPS61288RQQR" H 4925 3525 50  0001 L CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps61288.pdf?ts=1609351344517&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Fnon-isolated-dc-dc-switching-regulators%252Fstep-up-boost%252Fboost-converters-integrated-switch%252Fproducts.html" H 6075 2275 50  0001 L CNN
+F 4 "18V, 15A synch boost converter" V 6625 2625 50  0001 L CNN "Description"
+F 5 "Texas Instruments" H 4925 3375 50  0001 L CNN "Manufacturer_Name"
+F 6 "TPS61288RQQR" H 6075 2525 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4425 3525
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
