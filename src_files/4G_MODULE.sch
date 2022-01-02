@@ -99,7 +99,7 @@ Text Label 7775 3500 0    50   ~ 0
 USM1_VDD
 Wire Wire Line
 	7475 3500 7775 3500
-Text Label 12550 7375 2    50   ~ 0
+Text Label 12325 7375 2    50   ~ 0
 USM_GND
 Text Label 12575 7075 2    50   ~ 0
 USM1_VDD
@@ -1086,8 +1086,6 @@ Wire Wire Line
 	14225 7175 14700 7175
 Wire Wire Line
 	13800 7275 14700 7275
-Wire Wire Line
-	12550 7375 14700 7375
 NoConn ~ 14700 7475
 Wire Wire Line
 	13575 7575 14700 7575
@@ -1345,17 +1343,6 @@ F 3 "" H 14475 4850 60  0000 C CNN
 $EndComp
 Text Notes 12075 6575 0    39   ~ 0
 NOTE: Keep placement of (U)SIM card connector to the module as close as possible. Keep the trace length\nas less than 200mm as possible.\nKeep (U)SIM card signals away from RF and VBAT traces.\nMINIMIZE cross talk.
-$Comp
-L Connector:SIM_Card_Shielded J9
-U 1 1 6305C88F
-P 15200 7375
-F 0 "J9" H 15275 6900 50  0000 L CNN
-F 1 "SIM_Card_Shielded" H 14925 6800 50  0000 L CNN
-F 2 "greencharge-footprints:GCT_SIM8066-6-1-14-01-A_REVA" H 15200 7725 50  0001 C CNN
-F 3 " ~" H 15150 7375 50  0001 C CNN
-	1    15200 7375
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14575 7675 14575 8275
 NoConn ~ 2150 6350
@@ -1403,4 +1390,34 @@ NoConn ~ 5300 7775
 Wire Wire Line
 	5475 3200 5300 3200
 NoConn ~ 5300 3200
+$Comp
+L SIM8066-6-1-14-01-A_REVA:SIM8066-6-1-14-01-A_REVA J9
+U 1 1 6EC1A329
+P 15100 7375
+F 0 "J9" H 15330 7421 50  0000 L CNN
+F 1 "SIM8066-6-1-14-01-A_REVA" H 14625 7850 50  0000 L CNN
+F 2 "greencharge-footprints:GCT_SIM8066-6-1-14-01-A_REVA" H 15100 7375 50  0001 L BNN
+F 3 "" H 15100 7375 50  0001 L BNN
+F 4 "Manufacturer recommendations" H 15100 7375 50  0001 L BNN "STANDARD"
+F 5 "1.44mm" H 15100 7375 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Global Connector Technology" H 15100 7375 50  0001 L BNN "MANUFACTURER"
+F 7 "REVA" H 15100 7375 50  0001 L BNN "PARTREV"
+	1    15100 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L OLIMEX_Power:GND #PWR0375
+U 1 1 6EC376D6
+P 11950 7400
+F 0 "#PWR0375" H 11950 7150 50  0001 C CNN
+F 1 "GND" H 11955 7227 50  0000 C CNN
+F 2 "" H 11950 7400 60  0000 C CNN
+F 3 "" H 11950 7400 60  0000 C CNN
+	1    11950 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11950 7375 11950 7400
+Wire Wire Line
+	11950 7375 14700 7375
 $EndSCHEMATC

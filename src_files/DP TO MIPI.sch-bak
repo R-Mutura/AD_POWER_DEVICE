@@ -21,7 +21,7 @@ AR Path="/61C73AB6/6B9565DC" Ref="U?"  Part="1"
 AR Path="/61C73AB6/635B9242/6B9565DC" Ref="U10"  Part="1" 
 F 0 "U10" H 4375 50  50  0000 C CNN
 F 1 "TC358860XBG" H 4425 -25 50  0000 C CNN
-F 2 "" H 3375 1050 50  0001 C CNN
+F 2 "greencharge-footprints:TC358860XBG" H 3375 1050 50  0001 C CNN
 F 3 "" H 3375 1050 50  0001 C CNN
 	1    4375 1750
 	1    0    0    -1  
@@ -397,7 +397,7 @@ P 1050 2800
 AR Path="/61C73AB6/6B956699" Ref="Y?"  Part="1" 
 AR Path="/61C73AB6/635B9242/6B956699" Ref="Y5"  Part="1" 
 F 0 "Y5" H 1325 2550 60  0000 L CNN
-F 1 "ASE-27.000MHZ-LR-T(27MHz)" H 1100 2450 60  0000 L CNN
+F 1 "ASE-27.000MHZ-LR-T(27MHz)" H 675 2400 60  0000 L CNN
 F 2 "Crystal:Crystal_SMD_EuroQuartz_MT-4Pin_3.2x2.5mm" H 1250 3000 60  0001 L CNN
 F 3 "https://www.idt.com/document/dst/xl-family-low-phase-noise-quartz-based-pll-oscillators-datasheet" H 1250 3100 60  0001 L CNN
 F 4 "ASE-27.000MHZ-LR-T" H 1250 3300 60  0001 L CNN "MPN"
@@ -623,10 +623,10 @@ Wire Wire Line
 	2750 3050 2750 2975
 Wire Wire Line
 	2750 2975 2400 2975
-Text Label 2625 3150 0    50   ~ 0
-INT_eDP
+Text Label 2475 3150 0    50   ~ 0
+INT_eDP_MIPI
 Wire Wire Line
-	2975 3150 2625 3150
+	2975 3150 2475 3150
 $Comp
 L OLIMEX_Power:GND #PWR?
 U 1 1 6B95670D
