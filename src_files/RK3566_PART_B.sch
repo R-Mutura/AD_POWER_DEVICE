@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 11 16
+Sheet 12 15
 Title ""
 Date ""
 Rev ""
@@ -647,10 +647,6 @@ Wire Wire Line
 Connection ~ 10425 3650
 Wire Wire Line
 	10425 3650 11700 3650
-NoConn ~ 4025 1775
-NoConn ~ 4025 1875
-NoConn ~ 4025 2025
-NoConn ~ 4025 2125
 $Comp
 L GCL_Integrated-Circuits:RK3566 U?
 U 3 1 62988BD1
@@ -664,8 +660,6 @@ F 3 "" H 5475 475 50  0001 C CNN
 	3    6025 575 
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4025 2225
-NoConn ~ 4025 2375
 NoConn ~ 4025 2525
 NoConn ~ 4025 2625
 NoConn ~ 4025 2725
@@ -674,7 +668,6 @@ NoConn ~ 4025 2925
 NoConn ~ 4025 3075
 NoConn ~ 4025 3475
 NoConn ~ 4025 3575
-NoConn ~ 4025 3725
 NoConn ~ 4025 3825
 NoConn ~ 4025 4875
 NoConn ~ 4025 4975
@@ -827,4 +820,32 @@ Wire Wire Line
 	8475 9725 8475 9750
 Text Notes 8400 9300 0    39   ~ 0
 NOT USED
+Text HLabel 3725 1775 0    39   Input ~ 0
+GPIO1_C2_u_DISPLAY_TWO
+Wire Wire Line
+	4025 1775 3725 1775
+Text HLabel 3725 1875 0    39   Input ~ 0
+LCD_2_ENGPIO1_C3_u_TO_DISPLAY
+Wire Wire Line
+	4025 1875 3725 1875
+Text HLabel 3725 2025 0    39   Input ~ 0
+TP_INT_GPIO0_A5_DISPLAY_TWO
+Text HLabel 3725 2125 0    39   Input ~ 0
+BL_EN_GPIO0_C0_DISPLAY_TWO
+Text HLabel 3725 2225 0    39   Input ~ 0
+LCD_RST_L_GPIO0_C2_DISPLAY_TWO
+Text HLabel 3725 2375 0    39   Input ~ 0
+TP_RST_L_GPIO0_C5_DISPLAY_TWO
+Wire Wire Line
+	4025 2025 3725 2025
+Wire Wire Line
+	4025 2125 3725 2125
+Wire Wire Line
+	3725 2225 4025 2225
+Wire Wire Line
+	4025 2375 3725 2375
+Text HLabel 3800 3725 0    50   Input ~ 0
+LCD_BL_PWM10_M0_DISPLAY_TWO
+Wire Wire Line
+	4025 3725 3800 3725
 $EndSCHEMATC

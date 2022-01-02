@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 16
+Sheet 7 15
 Title ""
 Date ""
 Rev ""
@@ -71,39 +71,6 @@ Wire Wire Line
 Wire Wire Line
 	3125 5675 3125 5900
 Connection ~ 3125 5900
-$Comp
-L OLIMEX_Power:+3.3V #PWR?
-U 1 1 635D8DE7
-P 1350 2200
-AR Path="/61B4DD57/635D8DE7" Ref="#PWR?"  Part="1" 
-AR Path="/61C73AB6/635B9242/635D8DE7" Ref="#PWR077"  Part="1" 
-F 0 "#PWR077" H 1350 2050 50  0001 C CNN
-F 1 "+3.3V" H 1365 2373 50  0000 C CNN
-F 2 "" H 1350 2200 60  0000 C CNN
-F 3 "" H 1350 2200 60  0000 C CNN
-	1    1350 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 635D8DEE
-P 1350 2375
-AR Path="/61B4DD57/635D8DEE" Ref="R?"  Part="1" 
-AR Path="/61C73AB6/635B9242/635D8DEE" Ref="R65"  Part="1" 
-F 0 "R65" H 1418 2421 50  0000 L CNN
-F 1 "2.2K_402" H 1418 2330 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1390 2365 50  0001 C CNN
-F 3 "~" H 1350 2375 50  0001 C CNN
-F 4 "0402WGJ0222TCE" H 1350 2375 50  0001 C CNN "Mfr No."
-	1    1350 2375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 2225 1350 2200
-Wire Wire Line
-	1350 2525 1350 2575
-Wire Wire Line
-	1875 2575 1350 2575
 $Comp
 L Device:R_US R?
 U 1 1 635D8DF8
@@ -717,21 +684,6 @@ F 3 "~" H 1550 1400 50  0001 C CNN
 	1    1550 1400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 635D8F3D
-P 1300 1375
-AR Path="/61B4DD57/635D8F3D" Ref="C?"  Part="1" 
-AR Path="/61C73AB6/635B9242/635D8F3D" Ref="C196"  Part="1" 
-F 0 "C196" H 1400 1450 50  0000 C CNN
-F 1 "0.1uF" H 1425 1275 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1300 1375 50  0001 C CNN
-F 3 "~" H 1300 1375 50  0001 C CNN
-	1    1300 1375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 1475 1300 1550
 Wire Wire Line
 	1550 1550 1550 1500
 $Comp
@@ -747,50 +699,12 @@ F 3 "~" H 1025 1400 50  0001 C CNN
 	1    1025 1400
 	1    0    0    -1  
 $EndComp
-$Comp
-L OLIMEX_Power:+3.3V #PWR?
-U 1 1 635D8F4B
-P 1300 1225
-AR Path="/61B4DD57/635D8F4B" Ref="#PWR?"  Part="1" 
-AR Path="/61C73AB6/635B9242/635D8F4B" Ref="#PWR075"  Part="1" 
-F 0 "#PWR075" H 1300 1075 50  0001 C CNN
-F 1 "+3.3V" H 1315 1398 50  0000 C CNN
-F 2 "" H 1300 1225 60  0000 C CNN
-F 3 "" H 1300 1225 60  0000 C CNN
-	1    1300 1225
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1025 1300 1025 1225
 Wire Wire Line
-	1025 1225 1300 1225
-Wire Wire Line
-	1300 1275 1300 1225
-Connection ~ 1300 1225
-Wire Wire Line
 	1550 1300 1550 1225
 Wire Wire Line
-	1550 1225 1300 1225
-Wire Wire Line
 	1025 1500 1025 1550
-Wire Wire Line
-	1025 1550 1300 1550
-Connection ~ 1300 1550
-Wire Wire Line
-	1300 1550 1550 1550
-$Comp
-L OLIMEX_Power:GND #PWR?
-U 1 1 635D8F5B
-P 1300 1550
-AR Path="/61B4DD57/635D8F5B" Ref="#PWR?"  Part="1" 
-AR Path="/61C73AB6/635B9242/635D8F5B" Ref="#PWR076"  Part="1" 
-F 0 "#PWR076" H 1300 1300 50  0001 C CNN
-F 1 "GND" H 1305 1377 50  0000 C CNN
-F 2 "" H 1300 1550 60  0000 C CNN
-F 3 "" H 1300 1550 60  0000 C CNN
-	1    1300 1550
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4875 5325
 NoConn ~ 4875 5425
 NoConn ~ 4875 5125
@@ -1003,39 +917,6 @@ F 3 "" H 675 3950 60  0000 C CNN
 	1    675  3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 635D8FE5
-P 1125 2575
-AR Path="/61B4DD57/635D8FE5" Ref="C?"  Part="1" 
-AR Path="/61C73AB6/635B9242/635D8FE5" Ref="C193"  Part="1" 
-F 0 "C193" V 1075 2425 50  0000 C CNN
-F 1 "0.1uF" V 1075 2700 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1125 2575 50  0001 C CNN
-F 3 "~" H 1125 2575 50  0001 C CNN
-	1    1125 2575
-	0    1    1    0   
-$EndComp
-$Comp
-L OLIMEX_Power:GND #PWR?
-U 1 1 635D8FEB
-P 825 2600
-AR Path="/61B4DD57/635D8FEB" Ref="#PWR?"  Part="1" 
-AR Path="/61C73AB6/635B9242/635D8FEB" Ref="#PWR073"  Part="1" 
-F 0 "#PWR073" H 825 2350 50  0001 C CNN
-F 1 "GND" H 830 2427 50  0000 C CNN
-F 2 "" H 825 2600 60  0000 C CNN
-F 3 "" H 825 2600 60  0000 C CNN
-	1    825  2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1350 2575 1225 2575
-Wire Wire Line
-	825  2575 825  2600
-Wire Wire Line
-	1025 2575 825  2575
-Connection ~ 1350 2575
 Wire Wire Line
 	6175 2525 6175 2625
 Wire Wire Line
@@ -1594,12 +1475,6 @@ F 3 "" H 10750 5150 50  0001 C CNN
 	1    10750 5200
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 4000 6000 2625 1525
-U 6311BE81
-F0 "Sheet6311BE80" 50
-F1 "hdmi to mipi.sch" 50
-$EndSheet
 $Comp
 L 3-1734592-0:3-1734592-0 J?
 U 1 1 631A8114
