@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name usb_hub)(type Legacy)(uri "C:/Users/user/Documents/KICAD DESIGNS/PROJECTS/USB HUB/LOCAL_LIBS/usb_hub.lib")(options "")(descr ""))
+  (lib (name hdmi_to_mipi-dsi_converter-rescue)(type Legacy)(uri "C:/Users/user/Documents/KICAD DESIGNS/KICAD CLONES IN USE/hdmi_to_mipi-dsi_converter/hdmi_to_mipi-dsi_converter/src_files/hdmi_to_mipi-dsi_converter-rescue.lib")(options "")(descr ""))
 )

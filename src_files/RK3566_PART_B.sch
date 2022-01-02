@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 12 15
+Sheet 11 16
 Title ""
 Date ""
 Rev ""
@@ -659,7 +659,7 @@ AR Path="/62988BD1" Ref="U?"  Part="3"
 AR Path="/62987DE9/62988BD1" Ref="U1"  Part="3" 
 F 0 "U1" H 6050 240 50  0000 C CNN
 F 1 "RK3566" H 6050 149 50  0000 C CNN
-F 2 "greencharge-footprints:BGA828C65P31X31_2100X2100X161N" H 5475 475 50  0001 C CNN
+F 2 "greencharge-footprints:RK366_BGA-565_20x18_15.5x14.4mm" H 5475 475 50  0001 C CNN
 F 3 "" H 5475 475 50  0001 C CNN
 	3    6025 575 
 	1    0    0    -1  

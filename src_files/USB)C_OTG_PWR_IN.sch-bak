@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 15
+Sheet 13 16
 Title ""
 Date ""
 Rev ""
@@ -457,36 +457,25 @@ Wire Wire Line
 Connection ~ 7050 900 
 Text HLabel 5875 2375 2    50   Input ~ 0
 USB_OTG0_VBUSDET
-$Comp
-L Connector:Conn_01x02_Male J10
-U 1 1 6A39320C
-P 1100 4950
-F 0 "J10" H 1208 5131 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1208 5040 50  0000 C CNN
-F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" H 1100 4950 50  0001 C CNN
-F 3 "~" H 1100 4950 50  0001 C CNN
-	1    1100 4950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1300 4950 1825 4950
 $Comp
 L OLIMEX_Power:GND #PWR?
 U 1 1 6A394CB4
-P 1800 5175
+P 1800 5300
 AR Path="/6A394CB4" Ref="#PWR?"  Part="1" 
 AR Path="/6823D52E/6A394CB4" Ref="#PWR0267"  Part="1" 
-F 0 "#PWR0267" H 1800 4925 50  0001 C CNN
-F 1 "GND" H 1805 5002 50  0000 C CNN
-F 2 "" H 1800 5175 60  0000 C CNN
-F 3 "" H 1800 5175 60  0000 C CNN
-	1    1800 5175
+F 0 "#PWR0267" H 1800 5050 50  0001 C CNN
+F 1 "GND" H 1805 5127 50  0000 C CNN
+F 2 "" H 1800 5300 60  0000 C CNN
+F 3 "" H 1800 5300 60  0000 C CNN
+	1    1800 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 5050 1800 5050
+	1300 5175 1800 5175
 Wire Wire Line
-	1800 5050 1800 5175
+	1800 5175 1800 5300
 Text Label 1825 4950 0    39   ~ 0
 POWER_IN_CONN
 Text Label 3525 900  2    39   ~ 0
@@ -579,4 +568,30 @@ F 3 "~" H 7475 900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7050 900  7275 900 
+$Comp
+L Connector:TestPoint TP?
+U 1 1 62F91836
+P 1300 4950
+AR Path="/672F9255/62F91836" Ref="TP?"  Part="1" 
+AR Path="/6823D52E/62F91836" Ref="TP18"  Part="1" 
+F 0 "TP18" V 1254 5138 50  0000 L CNN
+F 1 "PWR_IN+" V 1345 5138 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 1500 4950 50  0001 C CNN
+F 3 "~" H 1500 4950 50  0001 C CNN
+	1    1300 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 62F9183C
+P 1300 5175
+AR Path="/672F9255/62F9183C" Ref="TP?"  Part="1" 
+AR Path="/6823D52E/62F9183C" Ref="TP19"  Part="1" 
+F 0 "TP19" V 1254 5363 50  0000 L CNN
+F 1 "PWR_IN-" V 1345 5363 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.0x2.0mm" H 1500 5175 50  0001 C CNN
+F 3 "~" H 1500 5175 50  0001 C CNN
+	1    1300 5175
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
