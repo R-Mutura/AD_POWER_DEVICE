@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 12 15
+Sheet 9 15
 Title ""
 Date ""
 Rev ""
@@ -143,18 +143,6 @@ Wire Wire Line
 	4025 1575 3725 1575
 Wire Wire Line
 	3725 1675 4025 1675
-Text HLabel 8325 4475 2    50   Input ~ 0
-HDMITX_CEC_M0
-Wire Wire Line
-	8075 4475 8325 4475
-Text HLabel 8325 4375 2    50   Input ~ 0
-HDMITX_SDA
-Text HLabel 8325 4275 2    50   Input ~ 0
-HDMITX_SCL
-Wire Wire Line
-	8075 4275 8325 4275
-Wire Wire Line
-	8075 4375 8325 4375
 Text HLabel 3675 4625 0    50   Input ~ 0
 4G_MODULE_USB_D+
 Text HLabel 3675 4725 0    50   Input ~ 0
@@ -848,4 +836,22 @@ Text HLabel 3800 3725 0    50   Input ~ 0
 LCD_BL_PWM10_M0_DISPLAY_TWO
 Wire Wire Line
 	4025 3725 3800 3725
+Text Label 8175 4475 0    39   ~ 0
+HDMITX_CEC_M
+Text Label 8175 4375 0    39   ~ 0
+HDMITX_SDA
+Text Label 8200 4275 0    39   ~ 0
+HDMITX_SCL
+Wire Wire Line
+	8075 4375 8600 4375
+Wire Wire Line
+	8075 4275 8600 4275
+Wire Wire Line
+	8075 4475 8600 4475
+Text HLabel 8600 4275 2    39   Input ~ 0
+HDMITX_SCL
+Text HLabel 8600 4375 2    39   Input ~ 0
+HDMITX_SDA
+Text HLabel 8600 4475 2    39   Input ~ 0
+HDMITX_CEC_M0
 $EndSCHEMATC

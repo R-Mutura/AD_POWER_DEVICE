@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 15 15
+Sheet 13 15
 Title ""
 Date ""
 Rev ""
@@ -863,7 +863,6 @@ Text Label 4800 3300 2    50   ~ 0
 PWR_EN
 Wire Wire Line
 	5475 3300 4800 3300
-NoConn ~ 5475 3200
 Text GLabel 8400 2600 1    33   Input ~ 0
 VCC_3V3
 Wire Wire Line
@@ -1387,4 +1386,21 @@ F 3 "~" H 8075 5300 50  0001 C CNN
 	1    7875 5300
 	0    1    1    0   
 $EndComp
+NoConn ~ 7500 6475
+NoConn ~ 7500 6575
+NoConn ~ 7500 6675
+NoConn ~ 7500 6875
+NoConn ~ 7500 6975
+NoConn ~ 7500 7275
+NoConn ~ 7500 7375
+NoConn ~ 7500 7475
+NoConn ~ 7500 7575
+NoConn ~ 7500 7675
+NoConn ~ 7500 7775
+NoConn ~ 5300 7575
+NoConn ~ 5300 7675
+NoConn ~ 5300 7775
+Wire Wire Line
+	5475 3200 5300 3200
+NoConn ~ 5300 3200
 $EndSCHEMATC
