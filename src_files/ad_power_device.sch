@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title ""
 Date ""
 Rev ""
@@ -521,17 +521,6 @@ Wire Notes Line
 	5575 3925 5525 3925
 Text Notes 5575 3875 0    30   ~ 0
 TO HEADPHONE \n    JACK
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 61D2168A
-P 3400 4300
-F 0 "J1" V 3400 4400 50  0000 C CNN
-F 1 "SPEAKER" V 3300 4275 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 3400 4300 50  0001 C CNN
-F 3 "~" H 3400 4300 50  0001 C CNN
-	1    3400 4300
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	3725 3925 3400 3925
 Wire Wire Line
@@ -540,8 +529,6 @@ Wire Wire Line
 	3300 4100 3300 3850
 Wire Wire Line
 	3300 3850 3725 3850
-Text Notes 3750 4250 2    30   ~ 0
-SPEAKER OUT\n
 Text Label 8100 6625 2    39   ~ 0
 PMIC_SLEEP_H
 Text Label 8100 6700 2    39   ~ 0
@@ -1601,8 +1588,8 @@ Wire Wire Line
 	1650 1175 1575 1175
 Wire Wire Line
 	1650 1050 1575 1050
-Text Notes 1850 600  2    50   ~ 10
-USB_OTG AND POWER_INPUT
+Text Notes 1825 600  2    50   ~ 10
+WIRELESS Qi POWER_INPUT
 Wire Notes Line rgb(194, 65, 67)
 	775  550  525  550 
 Wire Notes Line rgb(194, 63, 87)
@@ -1909,4 +1896,48 @@ Wire Wire Line
 	10150 6000 10425 6000
 Wire Wire Line
 	10425 6100 10150 6100
+$Sheet
+S 13325 8675 2215 730 
+U 626A6204
+F0 "5W_QI_PWR_OUTPUT" 50
+F1 "5W_QI_PWR_OUTPUT.sch" 50
+$EndSheet
+$Comp
+L Connector:TestPoint TP?
+U 1 1 631A0D75
+P 3400 4100
+AR Path="/626A6204/631A0D75" Ref="TP?"  Part="1" 
+AR Path="/631A0D75" Ref="TP29"  Part="1" 
+F 0 "TP29" H 3210 4295 50  0000 L CNN
+F 1 "SPK+" H 3125 4220 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3600 4100 50  0001 C CNN
+F 3 "https://kimchen8.en.made-in-china.com/product/pvWQfngkJchS/China-Qi-Wireless-Charger-Transmitter-6-3-Uh-Coil-for-Mobile-Phone.html" H 3600 4100 50  0001 C CNN
+F 4 "" V 3400 4100 50  0001 C CNN "Field4"
+	1    3400 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 631A0D7C
+P 3300 4100
+AR Path="/626A6204/631A0D7C" Ref="TP?"  Part="1" 
+AR Path="/631A0D7C" Ref="TP28"  Part="1" 
+F 0 "TP28" H 3380 4275 50  0000 L CNN
+F 1 "SPK-" H 3325 4200 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 3500 4100 50  0001 C CNN
+F 3 "https://kimchen8.en.made-in-china.com/product/pvWQfngkJchS/China-Qi-Wireless-Charger-Transmitter-6-3-Uh-Coil-for-Mobile-Phone.html" H 3500 4100 50  0001 C CNN
+F 4 "" V 3300 4100 50  0001 C CNN "Field4"
+	1    3300 4100
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	15825 8300 15825 9775
+Wire Notes Line
+	15825 9775 12900 9775
+Wire Notes Line
+	12900 9775 12900 8300
+Wire Notes Line
+	12900 8300 15825 8300
+Text Notes 12925 8425 0    50   ~ 0
+WIRELESS POWER TX
 $EndSCHEMATC

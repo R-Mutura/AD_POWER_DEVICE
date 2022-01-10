@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 15
+Sheet 6 16
 Title ""
 Date ""
 Rev ""
@@ -1322,7 +1322,7 @@ U 1 1 6568E3B7
 P 1450 10525
 F 0 "R71" V 1655 10525 50  0000 C CNN
 F 1 "100R" V 1564 10525 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" V 1490 10515 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1490 10515 50  0001 C CNN
 F 3 "~" H 1450 10525 50  0001 C CNN
 	1    1450 10525
 	0    -1   -1   0   
