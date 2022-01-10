@@ -993,4 +993,6 @@ F 3 "" H 7275 4900 60  0000 C CNN
 	1    7275 4900
 	1    0    0    -1  
 $EndComp
+Text Notes 4775 1375 0    50   ~ 0
+4 ports USB POWER OUTOUT 5V @ 1A
 $EndSCHEMATC
