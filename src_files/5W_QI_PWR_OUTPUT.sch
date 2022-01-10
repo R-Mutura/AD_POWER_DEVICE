@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 17
+Sheet 15 17
 Title ""
 Date ""
 Rev ""
@@ -588,8 +588,6 @@ Wire Wire Line
 	2650 6375 2650 6600
 Wire Wire Line
 	2650 6600 1675 6600
-Wire Wire Line
-	1675 6500 2350 6500
 Wire Wire Line
 	2350 6500 2350 6375
 Text Label 1325 5950 0    50   ~ 0
@@ -1354,4 +1352,72 @@ Connection ~ 8975 2800
 Wire Wire Line
 	8975 2800 9125 2800
 Connection ~ 8975 4075
+NoConn ~ 2950 4375
+Text Label 2730 3825 2    39   ~ 0
+Qi_tx_SCL
+Text Label 2735 3925 2    39   ~ 0
+Qi_tx_SDA
+Wire Wire Line
+	2950 3825 2730 3825
+Wire Wire Line
+	2950 3925 2735 3925
+Text Label 1975 6500 0    39   ~ 0
+Qi_tx_SCL
+Text Label 1995 6600 0    39   ~ 0
+Qi_tx_SDA
+$Comp
+L Connector:TestPoint TP?
+U 1 1 640B8AE1
+P 2925 6440
+AR Path="/61C73AB6/640B8AE1" Ref="TP?"  Part="1" 
+AR Path="/62F6D336/640B8AE1" Ref="TP?"  Part="1" 
+AR Path="/6823D52E/640B8AE1" Ref="TP?"  Part="1" 
+AR Path="/626A6204/640B8AE1" Ref="TP30"  Part="1" 
+F 0 "TP30" V 2930 6620 50  0000 L CNN
+F 1 "Qi_tx_SCL" V 3015 6470 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3125 6440 50  0001 C CNN
+F 3 "~" H 3125 6440 50  0001 C CNN
+	1    2925 6440
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 640B8AE7
+P 2930 6620
+AR Path="/61C73AB6/640B8AE7" Ref="TP?"  Part="1" 
+AR Path="/62F6D336/640B8AE7" Ref="TP?"  Part="1" 
+AR Path="/6823D52E/640B8AE7" Ref="TP?"  Part="1" 
+AR Path="/626A6204/640B8AE7" Ref="TP31"  Part="1" 
+F 0 "TP31" V 2930 6820 50  0000 L CNN
+F 1 "Qi_tx_SDA" V 3010 6620 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3130 6620 50  0001 C CNN
+F 3 "~" H 3130 6620 50  0001 C CNN
+	1    2930 6620
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2930 6620 2650 6620
+Wire Wire Line
+	2650 6620 2650 6600
+Connection ~ 2650 6600
+Wire Wire Line
+	2850 6500 2850 6440
+Wire Wire Line
+	2850 6440 2925 6440
+Wire Wire Line
+	1675 6500 2350 6500
+Connection ~ 2350 6500
+Wire Wire Line
+	2350 6500 2850 6500
+$Comp
+L power:GND #PWR0271
+U 1 1 64105B12
+P 2225 3625
+F 0 "#PWR0271" H 2225 3375 50  0001 C CNN
+F 1 "GND" H 2325 3500 50  0000 C CNN
+F 2 "" H 2225 3625 50  0001 C CNN
+F 3 "" H 2225 3625 50  0001 C CNN
+	1    2225 3625
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

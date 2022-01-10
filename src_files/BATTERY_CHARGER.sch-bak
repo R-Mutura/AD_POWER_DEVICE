@@ -281,8 +281,6 @@ Wire Wire Line
 	2225 1175 2450 1175
 Connection ~ 2450 1175
 Connection ~ 5825 2000
-Text GLabel 6725 2425 0    50   Input ~ 0
-VBUS
 Text Notes 8950 1625 2    39   ~ 0
 MOSFET TO DISCONNECT BATTERY WHEN THE USB/POWER SOURCE IS CONNECTED
 $Comp
@@ -331,15 +329,8 @@ $EndComp
 Wire Wire Line
 	6875 2875 6875 2775
 Wire Wire Line
-	6875 2475 6875 2425
-Wire Wire Line
-	6725 2425 6875 2425
-Connection ~ 6875 2425
-Wire Wire Line
-	6875 2425 6875 2275
-Wire Wire Line
 	7975 1850 7975 1975
-Text Notes 9200 2975 2    39   ~ 0
+Text Notes 7640 3335 2    39   ~ 0
 THIS BAT SOURCE CAN ONLY SUPPLY 2A MAX VIA THE 3.3V RAIL\n\n
 $Comp
 L Connector:TestPoint TP10
@@ -693,4 +684,30 @@ Wire Notes Line
 	9475 6325 9475 3850
 Wire Notes Line
 	9475 3850 4400 3850
+Text GLabel 7625 2420 2    39   Input ~ 0
+RX_VOUT
+$Comp
+L Device:R_US R?
+U 1 1 63F2463D
+P 7270 2420
+AR Path="/63F2463D" Ref="R?"  Part="1" 
+AR Path="/672F9255/63F2463D" Ref="R97"  Part="1" 
+F 0 "R97" V 7360 2435 50  0000 C CNN
+F 1 "10K" V 7195 2435 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7310 2410 50  0001 C CNN
+F 3 "~" H 7270 2420 50  0001 C CNN
+	1    7270 2420
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7625 2420 7420 2420
+Wire Wire Line
+	6875 2275 6875 2420
+Connection ~ 6875 2420
+Wire Wire Line
+	6875 2420 6875 2475
+Wire Wire Line
+	7120 2420 6875 2420
+Text Notes 7175 2940 1    39   ~ 0
+Voltage divider
 $EndSCHEMATC

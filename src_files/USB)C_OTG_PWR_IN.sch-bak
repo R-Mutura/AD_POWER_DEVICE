@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 17
+Sheet 17 17
 Title ""
 Date ""
 Rev ""
@@ -13,20 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:D_TVS D?
-U 1 1 682BBBF7
-P 8990 2755
-AR Path="/61C73AB6/682BBBF7" Ref="D?"  Part="1" 
-AR Path="/682BBBF7" Ref="D?"  Part="1" 
-AR Path="/6823D52E/682BBBF7" Ref="D23"  Part="1" 
-F 0 "D23" V 8944 2835 50  0000 L CNN
-F 1 "ESD9X5VU" V 9035 2835 50  0000 L CNN
-F 2 "greencharge-footprints:ESD9X5VU_DFN1006-2" H 8990 2755 50  0001 C CNN
-F 3 "~" H 8990 2755 50  0001 C CNN
-	1    8990 2755
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 682BBC5C
@@ -92,26 +78,6 @@ F 3 "~" H 8495 5255 50  0001 C CNN
 	1    8495 5255
 	1    0    0    -1  
 $EndComp
-$Comp
-L OLIMEX_Power:GND #PWR?
-U 1 1 682BBC7A
-P 9290 3005
-AR Path="/682BBC7A" Ref="#PWR?"  Part="1" 
-AR Path="/6823D52E/682BBC7A" Ref="#PWR0271"  Part="1" 
-F 0 "#PWR0271" H 9290 2755 50  0001 C CNN
-F 1 "GND" H 9295 2832 50  0000 C CNN
-F 2 "" H 9290 3005 60  0000 C CNN
-F 3 "" H 9290 3005 60  0000 C CNN
-	1    9290 3005
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8990 2905 8990 2955
-Wire Wire Line
-	8990 2955 9290 2955
-Wire Wire Line
-	9290 2955 9290 3005
-Connection ~ 9290 2955
 Wire Wire Line
 	10695 5005 10695 5130
 Wire Wire Line
@@ -199,34 +165,6 @@ Wire Wire Line
 	9020 1215 9520 1215
 Wire Wire Line
 	9520 1215 9520 1340
-Wire Wire Line
-	8990 2580 8990 2605
-Text HLabel 9065 2580 2    50   Input ~ 0
-USB_OTG0_D+
-Text HLabel 10040 2305 2    50   Input ~ 0
-USB_OTG0_D-
-Wire Wire Line
-	9940 2955 9940 2930
-Wire Wire Line
-	9290 2955 9940 2955
-$Comp
-L Device:D_TVS D?
-U 1 1 682BBC24
-P 9940 2780
-AR Path="/61C73AB6/682BBC24" Ref="D?"  Part="1" 
-AR Path="/682BBC24" Ref="D?"  Part="1" 
-AR Path="/6823D52E/682BBC24" Ref="D25"  Part="1" 
-F 0 "D25" V 9894 2860 50  0000 L CNN
-F 1 "ESD9X5VU" V 9985 2860 50  0000 L CNN
-F 2 "greencharge-footprints:ESD9X5VU_DFN1006-2" H 9940 2780 50  0001 C CNN
-F 3 "~" H 9940 2780 50  0001 C CNN
-	1    9940 2780
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9065 2580 8990 2580
-Wire Wire Line
-	10040 2305 9940 2305
 $Comp
 L OLIMEX_Power:PWR_FLAG #FLG0101
 U 1 1 629D6523
@@ -310,11 +248,7 @@ $EndComp
 Wire Wire Line
 	4740 3105 6265 3105
 Wire Wire Line
-	6265 3105 6265 2750
-Wire Wire Line
-	4740 3205 6530 3205
-Wire Wire Line
-	6530 3205 6530 2770
+	6265 3105 6265 2970
 Wire Wire Line
 	4740 2805 5960 2805
 Wire Wire Line
@@ -830,90 +764,6 @@ F 3 "" H 2850 4385 50  0001 C CNN
 	1    2850 4385
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint TP24
-U 1 1 622DC098
-P 8670 2305
-F 0 "TP24" V 8865 2377 50  0000 C CNN
-F 1 "USB_D-" V 8774 2377 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8870 2305 50  0001 C CNN
-F 3 "~" H 8870 2305 50  0001 C CNN
-	1    8670 2305
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP25
-U 1 1 6230EBE6
-P 8695 2580
-F 0 "TP25" V 8890 2652 50  0000 C CNN
-F 1 "USB_D+" V 8799 2652 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 8895 2580 50  0001 C CNN
-F 3 "~" H 8895 2580 50  0001 C CNN
-	1    8695 2580
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8990 2580 8695 2580
-Connection ~ 8990 2580
-Wire Wire Line
-	8670 2305 9940 2305
-Connection ~ 9940 2305
-Wire Wire Line
-	9940 2305 9940 2630
-Text Label 14455 3005 2    50   ~ 0
-VBUS
-Wire Wire Line
-	14455 3005 14580 3005
-$Comp
-L OLIMEX_Power:GND #PWR?
-U 1 1 682BBC41
-P 15080 3480
-AR Path="/682BBC41" Ref="#PWR?"  Part="1" 
-AR Path="/6823D52E/682BBC41" Ref="#PWR0272"  Part="1" 
-F 0 "#PWR0272" H 15080 3230 50  0001 C CNN
-F 1 "GND" H 15085 3307 50  0000 C CNN
-F 2 "" H 15080 3480 60  0000 C CNN
-F 3 "" H 15080 3480 60  0000 C CNN
-	1    15080 3480
-	1    0    0    -1  
-$EndComp
-Text HLabel 15380 3005 2    50   Input ~ 0
-USB_OTG0_VBUSDET
-Wire Wire Line
-	15080 3480 15080 3405
-Wire Wire Line
-	15080 3005 15380 3005
-Wire Wire Line
-	14880 3005 15080 3005
-Connection ~ 15080 3005
-Wire Wire Line
-	15080 3005 15080 3105
-$Comp
-L Device:R_US R?
-U 1 1 682BBC37
-P 15080 3255
-AR Path="/682BBC37" Ref="R?"  Part="1" 
-AR Path="/6823D52E/682BBC37" Ref="R98"  Part="1" 
-F 0 "R98" H 15180 3280 50  0000 C CNN
-F 1 "15K" H 15205 3205 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 15120 3245 50  0001 C CNN
-F 3 "~" H 15080 3255 50  0001 C CNN
-	1    15080 3255
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_US R?
-U 1 1 682BBC31
-P 14730 3005
-AR Path="/682BBC31" Ref="R?"  Part="1" 
-AR Path="/6823D52E/682BBC31" Ref="R97"  Part="1" 
-F 0 "R97" V 14655 2980 50  0000 C CNN
-F 1 "10K" V 14805 2955 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 14770 2995 50  0001 C CNN
-F 3 "~" H 14730 3005 50  0001 C CNN
-	1    14730 3005
-	0    1    1    0   
-$EndComp
 Text Notes 6295 875  0    39   ~ 0
 PROGRAMABLE OUTPUT OF THE \nRECEIVER LDO RANGE 2.5W-20W. \nso MAX OUT= 20V at 1A.
 $Comp
@@ -1169,8 +1019,6 @@ Wire Wire Line
 	3675 5135 3400 5135
 Connection ~ 5145 5290
 Connection ~ 5785 4635
-Wire Wire Line
-	6520 4560 6520 4635
 Text Notes 6215 4320 0    39   ~ 0
 MAIN SYSTEM SUPPLY RAIL\n5V / 6A
 Text GLabel 810  4580 1    39   Input ~ 0
@@ -1449,11 +1297,6 @@ Wire Wire Line
 	7145 4635 7145 5005
 Wire Wire Line
 	7145 5005 8220 5005
-Wire Wire Line
-	5785 4635 6520 4635
-Connection ~ 6520 4635
-Wire Wire Line
-	6520 4635 7145 4635
 Connection ~ 8220 5005
 Wire Wire Line
 	8220 5005 8495 5005
@@ -1525,14 +1368,6 @@ Wire Notes Line
 Wire Notes Line
 	8040 4420 11065 4420
 Wire Notes Line
-	11000 1990 11000 3590
-Wire Notes Line
-	11000 3590 8150 3590
-Wire Notes Line
-	8150 3590 8150 1990
-Wire Notes Line
-	8150 1990 11000 1990
-Wire Notes Line
 	8165 595  10985 595 
 Wire Notes Line
 	10985 595  10985 1885
@@ -1553,4 +1388,52 @@ F 3 "" H 9545 990 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9020 990  9545 990 
+Wire Wire Line
+	5785 4635 7145 4635
+Text Label 5365 3105 0    39   ~ 0
+Qi_RX_SCL
+Text Label 5390 3205 0    39   ~ 0
+Qi_RX_SDA
+$Comp
+L Connector:TestPoint TP?
+U 1 1 640203A8
+P 6810 2970
+AR Path="/61C73AB6/640203A8" Ref="TP?"  Part="1" 
+AR Path="/62F6D336/640203A8" Ref="TP?"  Part="1" 
+AR Path="/6823D52E/640203A8" Ref="TP32"  Part="1" 
+F 0 "TP32" V 6815 3150 50  0000 L CNN
+F 1 "Qi_RX_SCL" V 6900 3000 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7010 2970 50  0001 C CNN
+F 3 "~" H 7010 2970 50  0001 C CNN
+	1    6810 2970
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4740 3205 6530 3205
+Connection ~ 6530 3195
+Wire Wire Line
+	6530 3195 6530 2770
+Wire Wire Line
+	6530 3205 6530 3195
+Wire Wire Line
+	6810 3195 6530 3195
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6403E2AC
+P 6810 3195
+AR Path="/61C73AB6/6403E2AC" Ref="TP?"  Part="1" 
+AR Path="/62F6D336/6403E2AC" Ref="TP?"  Part="1" 
+AR Path="/6823D52E/6403E2AC" Ref="TP33"  Part="1" 
+F 0 "TP33" V 6810 3395 50  0000 L CNN
+F 1 "Qi_RX_SDA" V 6890 3195 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7010 3195 50  0001 C CNN
+F 3 "~" H 7010 3195 50  0001 C CNN
+	1    6810 3195
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6810 2970 6265 2970
+Connection ~ 6265 2970
+Wire Wire Line
+	6265 2970 6265 2750
 $EndSCHEMATC

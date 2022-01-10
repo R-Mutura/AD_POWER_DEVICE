@@ -206,7 +206,7 @@ Text HLabel 3775 8125 0    50   Input ~ 0
 GPIO4_B1_d_TO_NFC_REQ
 Wire Wire Line
 	4025 8125 3775 8125
-Text HLabel 3675 4375 0    50   Input ~ 0
+Text HLabel 3585 4375 0    50   Input ~ 0
 USB_OTG0_VBUSDET
 $Comp
 L Connector:TestPoint TP9
@@ -222,15 +222,15 @@ $EndComp
 Wire Wire Line
 	4025 4475 2650 4475
 Wire Wire Line
-	4025 4375 3675 4375
-Text HLabel 3675 4225 0    50   Input ~ 0
+	3935 4375 3585 4375
+Text HLabel 3585 4225 0    50   Input ~ 0
 USB_OTG0_D-
-Text HLabel 3675 4125 0    50   Input ~ 0
+Text HLabel 3585 4125 0    50   Input ~ 0
 USB_OTG0_D+
 Wire Wire Line
-	4025 4125 3675 4125
+	3935 4125 3585 4125
 Wire Wire Line
-	3675 4225 4025 4225
+	3585 4225 3935 4225
 Text HLabel 12150 4875 2    50   Input ~ 0
 RECOVER
 Wire Wire Line
@@ -854,4 +854,10 @@ Text HLabel 8600 4375 2    39   Input ~ 0
 HDMITX_SDA
 Text HLabel 8600 4475 2    39   Input ~ 0
 HDMITX_CEC_M0
+NoConn ~ 3935 4125
+NoConn ~ 3935 4225
+NoConn ~ 3940 4375
+NoConn ~ 4025 4375
+NoConn ~ 4025 4225
+NoConn ~ 4025 4125
 $EndSCHEMATC

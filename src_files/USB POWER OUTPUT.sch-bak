@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 17
+Sheet 16 17
 Title ""
 Date ""
 Rev ""
@@ -993,4 +993,6 @@ F 3 "" H 7275 4900 60  0000 C CNN
 	1    7275 4900
 	1    0    0    -1  
 $EndComp
+Text Notes 4775 1375 0    50   ~ 0
+4 ports USB POWER OUTOUT 5V @ 1A
 $EndSCHEMATC
