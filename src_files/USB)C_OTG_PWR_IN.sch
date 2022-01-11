@@ -1306,7 +1306,7 @@ U 1 1 62FDE5CD
 P 915 1670
 AR Path="/626A6204/62FDE5CD" Ref="TP?"  Part="1" 
 AR Path="/6823D52E/62FDE5CD" Ref="TP22"  Part="1" 
-F 0 "TP22" V 869 1858 50  0000 L CNN
+F 0 "TP22" V 860 1820 50  0000 L CNN
 F 1 "RX_COIL+" V 995 1610 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 1115 1670 50  0001 C CNN
 F 3 "https://kimchen8.en.made-in-china.com/product/pvWQfngkJchS/China-Qi-Wireless-Charger-Transmitter-6-3-Uh-Coil-for-Mobile-Phone.html" H 1115 1670 50  0001 C CNN
@@ -1320,7 +1320,7 @@ U 1 1 62FDE5D4
 P 890 1945
 AR Path="/626A6204/62FDE5D4" Ref="TP?"  Part="1" 
 AR Path="/6823D52E/62FDE5D4" Ref="TP17"  Part="1" 
-F 0 "TP17" V 844 2133 50  0000 L CNN
+F 0 "TP17" V 815 2070 50  0000 L CNN
 F 1 "RX_COIL-" V 955 1835 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 1090 1945 50  0001 C CNN
 F 3 "https://kimchen8.en.made-in-china.com/product/pvWQfngkJchS/China-Qi-Wireless-Charger-Transmitter-6-3-Uh-Coil-for-Mobile-Phone.html" H 1090 1945 50  0001 C CNN
